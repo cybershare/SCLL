@@ -1,7 +1,7 @@
 {
   "EndDate": "1467003605037",
   "StartDate": "1466398805037",
-  "_id": {
+  {"_id": {
     "$oid": "55dff4a34691882276faf953"
   },
   "admin": {
@@ -36,4 +36,5 @@
   },
   "protocol": "MQTT",
   "sensor_id": "G_1DN7"
+  }
 }

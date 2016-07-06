@@ -3,6 +3,7 @@
         "xsd" : "http://www.w3.org/2001/XMLSchema#",
 		"vcard": "http://www.w3.org/2006/vcard/ns#",
         "prov" : "http://www.w3.org/ns/prov#",
+		"iot": "https://iotdb.org/pub/iot#", 
         "StartDate" : {
           "@type" : "xsd:dateTime",
           "@id" : "prov:startedAtTime"
@@ -37,7 +38,7 @@
 		},
 		"coll_location" : {
 			"@type" : "@id",
-		    "@id" : "vcard:hasGeo"
+		    "@id" : "prov:atLocation"
 		},
 		"latitude" : {
 			"@type" : "@id",
@@ -46,24 +47,61 @@
 	    "longitude" : {
 			"@type" : "@id",
 		    "@id" : "vcard:longitude"
-		}
+		},
+		"association": { 
+			"@type": "@id", 
+			"@id": "prov:wasAssociatedWith" 
+		},
+		"sensor_id": { 
+			"@type": "@id", 
+			"@id": "prov:agent" 
+		},
+        "dataset": { 
+			"@type": "@id", 
+			"@id": "prov:Entity" 
+		},
+		"sensor" : {
+		    "@type": "@id", 
+			"@id": "iot:sensor"
+		},
+		"wasgeneratedby" : {
+		    "@type": "@id", 
+			"@id": "prov:wasGeneratedBy"
+		},
+		"@base": "http://ontology.cybershare.utep.edu/"
     },
-	"@graph" : [{
     "@id" : "http://example.com/dataset/week/270616",
     "@type" : "prov:Activity",
+	"StartDate" : "2013-07-17T14:50:59+02:00",
     "EndDate" : "2013-07-17T14:49:00+02:00",
-    "StartDate" : "2013-07-17T14:50:59+02:00",
-	"admin": {
-		"name" : "Diego Alejandro Ortiz Monasterio Miramontes",
-		"email": "diego.alejandro.omm@gmail.com"
-		},
-	"coll_location": {
-		"country": "mexico",
-		"location": "Innovation Center",
-		"coordinates": {
-			"latitude": 20.74403,
+	"sensor" : "true",
+	"association": [{
+	    "@id" : "G_1DN7",
+		"@type" : "prov:Agent",
+		"protocol": "MQTT",
+		"macAddress" : "98:4f:ee:00:e1:a6",
+		"admin": {
+			"name" : "Diego Alejandro Ortiz Monasterio Miramontes",
+			"email": "diego.alejandro.omm@gmail.com"
+			},
+		"coll_location": {
+			"country": "mexico",
+			"location": "Innovation Center",
+		    "latitude": 20.74403,
 			"longitude": -103.37867
-			}
-		}
-    }]
+			},
+		"dataset": [{
+		  "data": [{
+			"temperature": "29.49",
+			"pressure": "85.35",
+			"light": "7",
+			"noise": "23.46"
+		  }],
+		  "date": "1466670011",
+		  "wasgeneratedby" : {
+		  	    "@id" : "G_1DN7",
+				"@type" : "prov:Agent"
+		  }
+		}]
+	}]
 }
