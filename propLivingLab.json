@@ -1,0 +1,72 @@
+{
+    "_id" : ObjectId("56b3a9d27de952005f38a69b"),
+	"StartDate" : ISODate("2012-04-23T18:25:43.511Z"), 
+	"EndDate" : ISODate("2016-07-06T19:04:44.000Z"),
+	"partNumber" : "Galileo v2",
+	"macAddress" : "98:4f:ee:00:e1:a6",
+    "protocol" : "MQTT",
+	"sensors" : [
+		"TSL2561" : {
+			"sensor" : "luminosity",
+			"type" : "digital",
+			"installDate" : ISODate("2012-04-23T18:25:43.511Z"),
+			"variable" : [
+				{
+					"type" : "light",
+					"unit" : "Lumens"
+				}
+			]
+		},
+		"MPL115A2" : {
+			"sensor" : "barometer",
+			"type" : "digital",
+			"installDate" : ISODate("2012-04-23T18:25:43.511Z"),
+			"variable" : [
+				{
+					"type" : "temperature",
+					"unit" : "°C"
+				},
+				{
+					"type" : "pressure",
+					"unit" : "kBp"
+				}
+			]
+		},
+		"MAX4466" : {
+			"sensor" : "noise",
+			"type" : "analog",
+			"installDate" : ISODate("2012-04-23T18:25:43.511Z"),
+			"variable" : [
+				{
+					"type" : "noise",
+					"unit" : "dB"
+				}
+			]
+		}
+	],
+    "admin" : {
+        "name" : "Ana Sofía Jáuregui Cuevas",
+        "email" : "anasofia_ja@hotmail.com"
+    },
+    "coll_location" : {
+        "country" : "mexico",
+        "location" : "Innovation Center Floor 2",
+        "coordinates" : {
+            "latitude" : 20.7440479999999990,
+            "longitude" : -103.3785491999999900
+        }
+    },
+	"dataset" : [ 
+		{ "pressure" : "85.00", "date" : ISODate("2016-07-06T19:04:44.000Z") }, 
+		{ "light" : "749", "date" : ISODate("2016-07-06T19:04:44.000Z") },
+		{ "noise" : "10.63", "date" : ISODate("2016-07-06T19:04:44.000Z") },
+		{ "date" : ISODate("2016-07-06T19:04:44.000Z"), "temperature" : "26.36" },
+		{ "pressure" : "88.00", "date" : ISODate("2016-07-06T19:04:44.000Z") }, 
+		{ "light" : "745", "date" : ISODate("2016-07-06T19:04:44.000Z") },
+		{ "noise" : "11.53", "date" : ISODate("2016-07-06T19:04:44.000Z") },
+		{ "date" : ISODate("2016-07-06T19:04:44.000Z"), "temperature" : "28.24" },
+		.
+		.
+		.
+	]
+}
