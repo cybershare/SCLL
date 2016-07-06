@@ -1,0 +1,69 @@
+{
+    "@context" : {
+        "xsd" : "http://www.w3.org/2001/XMLSchema#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+        "prov" : "http://www.w3.org/ns/prov#",
+        "StartDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:startedAtTime"
+        },
+        "EndDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:endedAtTime"
+        },
+        "activity" : {
+          "@type" : "@id",
+          "@id" : "prov:activity"
+        },
+		"admin" : {
+	       "@type" : "@id",
+		   "@id" : "vcard:Individual"
+		},
+		"name" : {
+		   "@type" : "@id",	
+		   "@id" : "vcard:Name"
+		},
+		"email" : {
+		   "@type" : "@id",	
+		   "@id" : "vcard:Email"
+		},
+		"country" : {
+			"@type" : "@id",	
+		    "@id" : "vcard:contry-name"
+		},
+		"location" : {
+		    "@type" : "@id",	
+		    "@id" : "vcard:Location"
+		},
+		"coll_location" : {
+			"@type" : "@id",
+		    "@id" : "vcard:hasGeo"
+		},
+		"latitude" : {
+			"@type" : "@id",
+		    "@id" : "vcard:latitude"
+		},
+	    "longitude" : {
+			"@type" : "@id",
+		    "@id" : "vcard:longitude"
+		}
+    },
+	"@graph" : [{
+    "@id" : "http://example.com/dataset/week/270616",
+    "@type" : "prov:Activity",
+    "EndDate" : "2013-07-17T14:49:00+02:00",
+    "StartDate" : "2013-07-17T14:50:59+02:00",
+	"admin": {
+		"name" : "Diego Alejandro Ortiz Monasterio Miramontes",
+		"email": "diego.alejandro.omm@gmail.com"
+		},
+	"coll_location": {
+		"country": "mexico",
+		"location": "Innovation Center",
+		"coordinates": {
+			"latitude": 20.74403,
+			"longitude": -103.37867
+			}
+		}
+    }]
+}

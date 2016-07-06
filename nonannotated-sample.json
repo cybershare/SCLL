@@ -1,0 +1,39 @@
+{
+  "EndDate": "1467003605037",
+  "StartDate": "1466398805037",
+  "_id": {
+    "$oid": "55dff4a34691882276faf953"
+  },
+  "admin": {
+    "name": "Diego Alejandro Ortiz Monasterio Miramontes",
+    "email": "diego.alejandro.omm@gmail.com"
+  },
+  "coll_location": {
+    "country": "mexico",
+    "location": "Innovation Center",
+    "coordinates": {
+      "latitude": 20.74403,
+      "longitude": -103.37867
+    }
+  },
+  "dataset": [
+    {
+      "data": {
+        "temperature": "29.49",
+        "pressure": "85.35",
+        "light": "7",
+        "noise": "23.46"
+      },
+      "date": "1466670011"
+    }
+  ],
+  "macAddress" : "98:4f:ee:00:e1:a6",
+  "metadata": {
+    "pressure": "kBp",
+    "noise": "dB",
+    "temperature": "°C",
+    "light": "Lumens"
+  },
+  "protocol": "MQTT",
+  "sensor_id": "G_1DN7"
+}
