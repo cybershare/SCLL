@@ -89,8 +89,9 @@
 			"location": "Innovation Center",
 		    "latitude": 20.74403,
 			"longitude": -103.37867
-			},
-		"dataset": [{
+			}
+	}],
+	"dataset": [{
 		  "data": [{
 			"temperature": "29.49",
 			"pressure": "85.35",
@@ -102,6 +103,5 @@
 		  	    "@id" : "G_1DN7",
 				"@type" : "prov:Agent"
 		  }
-		}]
 	}]
 }
