@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-# ${1:LivingLab Sensor Network JSON-LD Annotation}
+
+# LivingLab Sensor Network JSON-LD Annotation
 Semantic annotation process for the JSON collections generated from the LivingLab Sensor Network
 
 ##History
@@ -20,6 +19,3 @@ TODO: Write credits
 
 ## License
   GNU GENERAL PUBLIC LICENSE
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
