@@ -1,10 +1,19 @@
 {
     "@context" : {
         "xsd" : "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"vcard": "http://www.w3.org/2006/vcard/ns#",
         "prov" : "http://www.w3.org/ns/prov#",
 		"iot": "https://iotdb.org/pub/iot#", 
 		"iot-unit": "https://iotdb.org/pub/iot-unit#", 
+		"label": { 
+			"@id": "rdfs:label", 
+			"@language": "en" 
+		},
+		"comment": { 
+			"@id": "rdfs:comment", 
+			"@language": "en" 
+		},
         "StartDate" : {
           "@type" : "xsd:dateTime",
           "@id" : "prov:startedAtTime"
@@ -34,14 +43,15 @@
 			"@id": "prov:wasGeneratedBy"
 		}
     },
-    "_id" : "432432432432432432",
+    "_id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
     "@type" : "prov:Activity",
-	"StartDate" : "2013-07-17T14:50:59+02:00",
-    "EndDate" : "2013-07-17T14:49:00+02:00",
+	"label": "Weekly Livinglab Sensing Activity",
+	"StartDate" : "2016-06-16T14:50:59+02:00",
+    "EndDate" : "2016-06-23T14:49:00+02:00",
 	"dataset": [
 	    {
 		  "@type": "prov:Entity",
-		  "date": "2016-07-06T19:04:44.000Z",
+		  "date": "2016-17-06T19:04:44.000Z",
 		  "data": [{
 		    "@type" : "iot:Band",
 			"temperature": "29.49",
@@ -50,7 +60,7 @@
 			"noise": "23.46"
 		  }],
 		  "wasgeneratedby" : {
-		  	    "@id" : "http://domain/sensor/id",
+		  	    "@id" : "http://domain.com/device/id",
 				"@type" : "prov:Agent"
 		  }
 		}
