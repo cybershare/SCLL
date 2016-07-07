@@ -1,0 +1,115 @@
+{   
+    "@context" : {
+        "xsd" : "http://www.w3.org/2001/XMLSchema#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"prov" : "http://www.w3.org/ns/prov#",
+		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
+		"iot": "https://iotdb.org/pub/iot#", 
+		"name" : {
+		   "@type" : "@id",	
+		   "@id" : "vcard:hasName"
+		},
+		"email" : {
+		   "@type" : "@id",	
+		   "@id" : "vcard:hasEmail"
+		},
+		"country" : {
+			"@type" : "@id",	
+		    "@id" : "vcard:hasCountryName"
+		},
+		"location" : {
+		    "@type" : "@id",	
+		    "@id" : "vcard:hasName"
+		},
+	    "latitude" : {
+			"@type" : "@id",
+		    "@id" : "vcard:latitude"
+		},
+	    "longitude" : {
+			"@type" : "@id",
+		    "@id" : "vcard:longitude"
+		},
+	    "observes" : {
+			"@type" : "@id",
+		    "@id" : "ssn:observes"
+		},
+	    "frequency" : {
+			"@type" : "@id",
+		    "@id" : "ssn:Frequency"
+		},
+	    "unit" : {
+			"@type" : "@id",
+		    "@id" : "iot:Unit"
+		}
+    },
+
+    "_id" : "56b3a9d27de952005f38a69b",
+	"@type" : "ssn:Device",
+	"partName" : "Galileo v2",
+	"macAddress" : "98:4f:ee:00:e1:a6",
+    "protocol" : "MQTT",
+	"admin" : {
+	    "@type" : "vcard:Individual",
+        "name" : "Ana Sofía Jáuregui Cuevas",
+        "email" : "anasofia_ja@hotmail.com"
+    },
+    "coll_location" : {
+        "@type" : "vcard:Location",
+        "country" : "mexico",
+        "location" : "Innovation Center Floor 2",
+        "latitude" : 20.7440479999999990,
+        "longitude" : -103.3785491999999900
+    },
+	"sensors" : [
+		{
+		    "@type": "ssn:SensingDevice",
+			"partName" : "TSL2561",
+			"sensor" : "luminosity",
+			"type" : "digital",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "light",
+					"unit" : "Lumens",
+					"frequency" : ""
+				}
+			]
+		},
+		{
+		    "@type": "ssn:SensingDevice",
+			"partName" : "MPL115A2",			
+			"sensor" : "barometer",
+			"type" : "digital",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{   "@type":"ssn:MeasurementProperty",
+					"observes" : "temperature",
+					"unit" : "°C",
+				    "frequency" : ""
+				},
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "pressure",
+					"unit" : "kBp",
+					"frequency" : ""
+				}
+			]
+		},
+		{
+		    "@type": "ssn:SensingDevice", 
+			"partName" : "MAX4466",
+			"sensor" : "noise",
+			"type" : "analog",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "noise",
+					"unit" : "dB",
+				    "frequency" : ""
+				}
+			]
+		}
+	]
+}

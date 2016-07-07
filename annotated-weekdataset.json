@@ -1,0 +1,58 @@
+{
+    "@context" : {
+        "xsd" : "http://www.w3.org/2001/XMLSchema#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+        "prov" : "http://www.w3.org/ns/prov#",
+		"iot": "https://iotdb.org/pub/iot#", 
+		"iot-unit": "https://iotdb.org/pub/iot-unit#", 
+        "StartDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:startedAtTime"
+        },
+        "EndDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:endedAtTime"
+        },
+        "temperature" : {
+			"@type" : "@id",
+		    "@id" : "iot-unit:temperature.si.celsius"
+		},
+		"pressure" : {
+			"@type" : "@id",
+		    "@id" : "iot-unit:xxx"
+		},
+		"light" : {
+			"@type" : "@id",
+		    "@id" : "iot-unit:light.si.lumen"
+		},	
+		"noise" : {
+			"@type" : "@id",
+		    "@id" : "iot-unit:xxx"
+		},
+		"wasgeneratedby" : {
+		    "@type": "@id", 
+			"@id": "prov:wasGeneratedBy"
+		}
+    },
+    "_id" : "432432432432432432",
+    "@type" : "prov:Activity",
+	"StartDate" : "2013-07-17T14:50:59+02:00",
+    "EndDate" : "2013-07-17T14:49:00+02:00",
+	"dataset": [
+	    {
+		  "@type": "prov:Entity",
+		  "date": "2016-07-06T19:04:44.000Z",
+		  "data": [{
+		    "@type" : "iot:Band",
+			"temperature": "29.49",
+			"pressure": "85.35",
+			"light": "7",
+			"noise": "23.46"
+		  }],
+		  "wasgeneratedby" : {
+		  	    "@id" : "http://domain/sensor/id",
+				"@type" : "prov:Agent"
+		  }
+		}
+	]
+}

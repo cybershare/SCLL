@@ -100,7 +100,7 @@
 		  }],
 		  "date": "1466670011",
 		  "wasgeneratedby" : {
-		  	    "@id" : "G_1DN7",
+		  	    "@id" : "http://linglab.com/card/3244234/3423432",
 				"@type" : "prov:Agent"
 		  }
 	}]
