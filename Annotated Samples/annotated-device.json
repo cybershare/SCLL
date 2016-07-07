@@ -15,15 +15,15 @@
 			"@language": "en" 
 		},
 		"name" : {
-		   "@type" : "@id",	
+		   "@type" : "xsd:string",	
 		   "@id" : "vcard:hasName"
 		},
 		"email" : {
-		   "@type" : "@id",	
+		   "@type" : "xsd:string",	
 		   "@id" : "vcard:hasEmail"
 		},
 		"country" : {
-			"@type" : "@id",	
+			"@type" : "xsd:string",	
 		    "@id" : "vcard:hasCountryName"
 		},
 		"location" : {
@@ -31,28 +31,43 @@
 		    "@id" : "vcard:hasName"
 		},
 	    "latitude" : {
-			"@type" : "@id",
+			"@type" : "xsd:double",
 		    "@id" : "vcard:latitude"
 		},
 	    "longitude" : {
-			"@type" : "@id",
+			"@type" : "xsd:double",
 		    "@id" : "vcard:longitude"
 		},
 	    "observes" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "ssn:observes"
 		},
 	    "frequency" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "ssn:Frequency"
 		},
 	    "unit" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "iot:Unit"
+		},
+		"admin" : {
+		    "@type" : "@id",
+		    "@id" : "vcard:Individual"
+		},
+		"coll_location" : {
+		    "@type" : "@id",
+		    "@id" : "vcard:Location"
+		},
+		"sensors" : {
+			"@type" : "@id",
+		    "@id" : "ssn:SensingDevice"
+		},
+		"variable" :{
+		    "@type" : "@id",
+		    "@id" : "ssn:MeasurementProperty"	
 		}
     },
-
-    "_id" : "56b3a9d27de952005f38a69b",
+    "@id" : "56b3a9d27de952005f38a69b",
 	"@type" : "ssn:Device",
 	"partName" : "Galileo v2",
 	"macAddress" : "98:4f:ee:00:e1:a6",
@@ -66,8 +81,8 @@
         "@type" : "vcard:Location",
         "country" : "mexico",
         "location" : "Innovation Center Floor 2",
-        "latitude" : 20.7440479999999990,
-        "longitude" : -103.3785491999999900
+        "latitude" : "20.7440479999999990",
+        "longitude" : "-103.3785491999999900"
     },
 	"sensors" : [
 		{

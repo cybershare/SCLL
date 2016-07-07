@@ -23,27 +23,35 @@
           "@id" : "prov:endedAtTime"
         },
         "temperature" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "iot-unit:temperature.si.celsius"
 		},
 		"pressure" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "iot-unit:xxx"
 		},
 		"light" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "iot-unit:light.si.lumen"
 		},	
 		"noise" : {
-			"@type" : "@id",
+			"@type" : "xsd:string",
 		    "@id" : "iot-unit:xxx"
 		},
 		"wasgeneratedby" : {
 		    "@type": "@id", 
 			"@id": "prov:wasGeneratedBy"
+		},
+		"dataset" : {
+		    "@type": "@id", 
+			"@id": "prov:Entity"
+		},
+		"data" : {
+		    "@type": "@id", 
+			"@id": "iot:Band"
 		}
     },
-    "_id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
+    "@id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
     "@type" : "prov:Activity",
 	"label": "Weekly Livinglab Sensing Activity",
 	"StartDate" : "2016-06-16T14:50:59+02:00",
