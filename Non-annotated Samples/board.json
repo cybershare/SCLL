@@ -1,0 +1,82 @@
+{
+    "_id" : { "$oid" : "56b3a9d27de952005f38a69b" },
+	"StartDate" : { "$date" : 1467830874000 }, 
+	"EndDate" : { "$date" : 1467830874000 },
+	"board" : "GalileoV2",
+	"serialNumber" : "FZGL40701DN7",
+	"macAddress" : "98:4f:ee:00:e1:a6",
+    "protocol" : "MQTT",
+	"sensors" : [
+		{	
+			"sensorId" : { "$oid" : "577f10f29494f235d7f2b49b" },
+			"partName" : "TSL2561",
+			"sensor" : "luminosity",
+			"type" : "digital",
+			"measurement" : "environment",
+			"installDate" : { "$date" : 1467830874000 },
+			"variable" : [
+				{
+					"type" : "light",
+					"unit" : "Lumens",
+					"valMin" : 0,
+					"valMax" : 5047,
+					"frequency" : 1 //minutes
+				}
+			]
+		},
+		{
+			"sensorId" : { "$oid" : "577f11069494f235d7f2b49d" },
+			"partName" : "MPL115A2",
+			"sensor" : "barometer",
+			"type" : "digital",
+			"measurement" : "environment",
+			"installDate" : { "$date" : 1467830874000 },
+			"variable" : [
+				{
+					"type" : "temperature",
+					"unit" : "Celsius",
+					"valMin" : -40,
+					"valMax" : 150,
+					"frequency" : 10 //minutes
+				},
+				{
+					"type" : "pressure",
+					"unit" : "kBp",
+					"valMin" : 50,
+					"valMax" : 115,
+					"frequency" : 10 //minutes
+				}
+			]
+		},
+		{
+			"sensorId" : { "$oid" : "577f11019494f235d7f2b49c" },
+			"partName" : "MAX4466",
+			"sensor" : "noise",
+			"type" : "analog",
+			"measurement" : "environment",
+			"installDate" : { "$date" : 1467830874000 },
+			"variable" : [
+				{
+					"type" : "noise",
+					"unit" : "dB",
+					"valMin" : 0,
+					"valMax" : 1024,
+					"frequency" : 1 //minutes
+				}
+			]
+		}
+	],
+    "admin" : {
+        "name" : "Ana Sofía Jáuregui Cuevas",
+        "email" : "anasofia_ja@hotmail.com"
+    },
+    "coll_location" : {
+        "country" : "mexico",
+        "location" : "Innovation Center Floor 2",
+        "coordinates" : {
+            "latitude" : 20.7440479999999990,
+            "longitude" : -103.3785491999999900
+        }
+    }
+
+}
