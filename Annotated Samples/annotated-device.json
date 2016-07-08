@@ -6,7 +6,9 @@
 		"prov" : "http://www.w3.org/ns/prov#",
 		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
 		"iot": "https://iotdb.org/pub/iot#", 
-		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"dul" : "http://www.loa-cnr.it/ontologies/DUL.owl#",
+		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		
 		"label": { 
 			"@id": "rdfs:label", 
 			"@language": "en" 
@@ -28,8 +30,8 @@
 		    "@id" : "vcard:hasCountryName"
 		},
 		"location" : {
-		    "@type" : "@id",	
-		    "@id" : "vcard:hasName"
+		    "@type" : "xsd:string",	
+		    "@id" : "dul:hasLocation"
 		},
 	    "latitude" : {
 			"@type" : "xsd:double",
@@ -44,12 +46,24 @@
 		    "@id" : "ssn:observes"
 		},
 	    "frequency" : {
-			"@type" : "xsd:string",
+			"@type" : "xsd:integer",
 		    "@id" : "ssn:Frequency"
+		},
+		"datasheet" : {
+			"@type" : "xsd:anyURI",
+		    "@id" : "ssn:SensorDataSheet"
 		},
 	    "unit" : {
 			"@type" : "xsd:string",
 		    "@id" : "iot:Unit"
+		},
+		"valMin" : {
+			"@type" : "xsd:float",
+		    "@id" : "iot:minimum"
+		},
+		"valMax" : {
+			"@type" : "xsd:float",
+		    "@id" : "iot:maximum"
 		},
 		"admin" : {
 		    "@type" : "@id",
@@ -70,9 +84,11 @@
     },
     "@id" : "56b3a9d27de952005f38a69b",
 	"@type" : "ssn:Device",
-	"partName" : "Galileo v2",
+	"board" : "GalileoV2",
+	"serialNumber" : "FZGL40701DN7",
 	"macAddress" : "98:4f:ee:00:e1:a6",
     "protocol" : "MQTT",
+	"datasheet": "http://www.intel.com/newsroom/kits/quark/galileo/pdfs/Intel_Galileo_Datasheet.pdf",
 	"admin" : {
 	    "@type" : "vcard:Individual",
         "name" : "Ana Sofía Jáuregui Cuevas",
@@ -82,57 +98,73 @@
         "@type" : "vcard:Location",
         "country" : "mexico",
         "location" : "Innovation Center Floor 2",
-        "latitude" : "20.7440479999999990",
-        "longitude" : "-103.3785491999999900"
+        "latitude" : 20.7440479999999990,
+        "longitude" : -103.3785491999999900
     },
 	"sensors" : [
 		{
+		    "@id" : "577f10f29494f235d7f2b49b",
 		    "@type": "ssn:SensingDevice",
 			"partName" : "TSL2561",
 			"sensor" : "luminosity",
 			"type" : "digital",
+			"measurement" : "environment",
+			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
 				{
 				    "@type":"ssn:MeasurementProperty",
 					"observes" : "light",
 					"unit" : "Lumens",
-					"frequency" : ""
+					"valMin" : 0,
+					"valMax" : 5047,
+					"frequency" : 1
 				}
 			]
 		},
 		{
+		    "@id" : "577f11069494f235d7f2b49d",
 		    "@type": "ssn:SensingDevice",
 			"partName" : "MPL115A2",			
 			"sensor" : "barometer",
 			"type" : "digital",
+			"measurement" : "environment",
+			"datasheet" : "http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
 				{   "@type":"ssn:MeasurementProperty",
 					"observes" : "temperature",
-					"unit" : "°C",
-				    "frequency" : ""
+					"unit" : "Celsius",
+					"valMin" : -40,
+					"valMax" : 150,
+				    "frequency" : 10
 				},
 				{
 				    "@type":"ssn:MeasurementProperty",
 					"observes" : "pressure",
 					"unit" : "kBp",
-					"frequency" : ""
+					"valMin" : 50,
+					"valMax" : 115,
+					"frequency" : 10
 				}
 			]
 		},
 		{
-		    "@type": "ssn:SensingDevice", 
+		    "@id" : "577f11019494f235d7f2b49c",
+			"@type": "ssn:SensingDevice", 
 			"partName" : "MAX4466",
 			"sensor" : "noise",
 			"type" : "analog",
+			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
 				{
 				    "@type":"ssn:MeasurementProperty",
 					"observes" : "noise",
 					"unit" : "dB",
-				    "frequency" : ""
+					"valMin" : 0,
+					"valMax" : 1024,
+					"frequency" : 1 
 				}
 			]
 		}
