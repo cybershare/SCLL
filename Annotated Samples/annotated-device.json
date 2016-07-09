@@ -3,12 +3,10 @@
         "xsd" : "http://www.w3.org/2001/XMLSchema#",
 		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"vcard": "http://www.w3.org/2006/vcard/ns#",
-		"prov" : "http://www.w3.org/ns/prov#",
 		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
 		"iot": "https://iotdb.org/pub/iot#", 
 		"dul" : "http://www.loa-cnr.it/ontologies/DUL.owl#",
 		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
-		
 		"label": { 
 			"@id": "rdfs:label", 
 			"@language": "en" 

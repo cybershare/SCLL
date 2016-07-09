@@ -54,12 +54,12 @@
     "@id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
     "@type" : "prov:Activity",
 	"label": "Weekly Livinglab Sensing Activity",
-	"StartDate" : "2016-06-16T14:50:59+02:00",
-    "EndDate" : "2016-06-23T14:49:00+02:00",
+	"StartDate" : "2016-07-06T19:04:44.000Z",
+    "EndDate" : "2016-07-06T19:04:44.000Z",
 	"dataset": [
 	    {
 		  "@type": "prov:Entity",
-		  "date": "2016-17-06T19:04:44.000Z",
+		  "date": "2016-07-06T18:47:54Z",
 		  "data": [{
 		    "@type" : "iot:Band",
 			"temperature": "29.49",

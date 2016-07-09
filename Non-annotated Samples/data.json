@@ -1,4 +1,4 @@
-{"_id" : { "$oid" : "574f11be9494f235d7f2b4a1" },"light" : "776","date" : { "$date" : 1467830874000 },"sensorId" : { "$oid" : "577f10f29494f235d7f2b49b" }}
-{"_id" : { "$oid" : "574f11be9494f235d7f2b4a2" },"noise" : "12.46","date" : { "$date" : 1467830874000 },"sensorId" : { "$oid" : "577f11019494f235d7f2b49c" }}
-{"_id" : { "$oid" : "574f11be9494f235d7f2b4a3" },"date" : { "$date" : 1467830874000 },"temperature" : "23.74","sensorId" : { "$oid" : "577f11069494f235d7f2b49d" }}
-{"_id" : { "$oid" : "574f11be9494f235d7f2b4a4" },"pressure" : "85.06","date" : { "$date" : 1467830874000 },"sensorId" : { "$oid" : "577f11069494f235d7f2b49d" }}
+{"_id" : { "$oid" : "574f11be9494f235d7f2b4a1" },"light" : "776","date" : { "$date" : 1467830874 },"sensorId" : { "$oid" : "577f10f29494f235d7f2b49b" }}
+{"_id" : { "$oid" : "574f11be9494f235d7f2b4a2" },"noise" : "12.46","date" : { "$date" : 1467830874 },"sensorId" : { "$oid" : "577f11019494f235d7f2b49c" }}
+{"_id" : { "$oid" : "574f11be9494f235d7f2b4a3" },"date" : { "$date" : 1467830874 },"temperature" : "23.74","sensorId" : { "$oid" : "577f11069494f235d7f2b49d" }}
+{"_id" : { "$oid" : "574f11be9494f235d7f2b4a4" },"pressure" : "85.06","date" : { "$date" : 1467830874 },"sensorId" : { "$oid" : "577f11069494f235d7f2b49d" }}
