@@ -1,5 +1,4 @@
 {   
-
     "_id" : ObjectId("56b3a9d27de952005f38a69b"),
 	"StartDate" : ISODate("2012-04-23T18:25:43.511Z"), 
 	"EndDate" : ISODate("2016-07-06T19:04:44.000Z"),

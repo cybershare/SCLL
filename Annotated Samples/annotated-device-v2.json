@@ -1,90 +1,5 @@
 {   
-    "@context" : {
-        "xsd" : "http://www.w3.org/2001/XMLSchema#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"vcard": "http://www.w3.org/2006/vcard/ns#",
-		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
-		"iot": "https://iotdb.org/pub/iot#", 
-		"dul" : "http://www.loa-cnr.it/ontologies/DUL.owl#",
-		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
-		"dc" : "http://purl.org/dc/elements/1.1/",
-		"installDate" : {
-			"@id" : "dc:date",
-		    "@type" : "xsd:date"
-		},
-		"label": { 
-			"@id": "rdfs:label", 
-			"@language": "en" 
-		},
-		"comment": { 
-			"@id": "rdfs:comment", 
-			"@language": "en" 
-		},
-		"name" : {
-		   "@type" : "xsd:string",	
-		   "@id" : "vcard:hasName"
-		},
-		"email" : {
-		   "@type" : "xsd:string",	
-		   "@id" : "vcard:hasEmail"
-		},
-		"country" : {
-			"@type" : "xsd:string",	
-		    "@id" : "vcard:hasCountryName"
-		},
-		"location" : {
-		    "@type" : "xsd:string",	
-		    "@id" : "dul:hasLocation"
-		},
-	    "latitude" : {
-			"@type" : "xsd:double",
-		    "@id" : "geo:lat"
-		},
-	    "longitude" : {
-			"@type" : "xsd:double",
-		    "@id" : "geo:long"
-		},
-	    "observes" : {
-			"@type" : "xsd:string",
-		    "@id" : "ssn:observes"
-		},
-	    "frequency" : {
-			"@type" : "xsd:integer",
-		    "@id" : "ssn:Frequency"
-		},
-		"datasheet" : {
-			"@type" : "xsd:anyURI",
-		    "@id" : "ssn:SensorDataSheet"
-		},
-	    "unit" : {
-			"@type" : "xsd:string",
-		    "@id" : "iot:Unit"
-		},
-		"valMin" : {
-			"@type" : "xsd:float",
-		    "@id" : "iot:minimum"
-		},
-		"valMax" : {
-			"@type" : "xsd:float",
-		    "@id" : "iot:maximum"
-		},
-		"admin" : {
-		    "@type" : "@id",
-		    "@id" : "vcard:Individual"
-		},
-		"coll_location" : {
-		    "@type" : "@id",
-		    "@id" : "vcard:Location"
-		},
-		"sensors" : {
-			"@type" : "@id",
-		    "@id" : "ssn:SensingDevice"
-		},
-		"variable" :{
-		    "@type" : "@id",
-		    "@id" : "ssn:MeasurementProperty"	
-		}
-    },
+    "@context" : "http://ontology.cybershare.utep.edu/livinglab/scllv.jsonld",
     "@id" : "56b3a9d27de952005f38a69b",
 	"@type" : "ssn:Device",
 	"board" : "GalileoV2",
@@ -109,9 +24,9 @@
 		    "@id" : "577f10f29494f235d7f2b49b",
 		    "@type": "ssn:SensingDevice",
 			"partName" : "TSL2561",
-			"sensor" : "luminosity",
+			"characteristic" : "luminosity",
 			"type" : "digital",
-			"measurement" : "environment",
+			"entity" : "environment",
 			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
@@ -129,9 +44,9 @@
 		    "@id" : "577f11069494f235d7f2b49d",
 		    "@type": "ssn:SensingDevice",
 			"partName" : "MPL115A2",			
-			"sensor" : "barometer",
+			"characteristic" : "barometer",
 			"type" : "digital",
-			"measurement" : "environment",
+			"entity" : "environment",
 			"datasheet" : "http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
@@ -156,8 +71,9 @@
 		    "@id" : "577f11019494f235d7f2b49c",
 			"@type": "ssn:SensingDevice", 
 			"partName" : "MAX4466",
-			"sensor" : "noise",
+			"characteristic" : "noise",
 			"type" : "analog",
+			"entity" : "environment",
 			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf",
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [

@@ -1,0 +1,224 @@
+{
+    "@context" : {  
+		"@base" : "http://ontology.cybershare.utep.edu/livinglab/scllv",
+	    "@vocab" : "http://ontology.cybershare.utep.edu/livinglab/scllv#",
+	    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"dc" : "http://purl.org/dc/elements/1.1/",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"dul" : "http://www.loa-cnr.it/ontologies/DUL.owl#",
+		"prov" : "http://www.w3.org/ns/prov#",
+		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
+		"iot": "https://iotdb.org/pub/iot#",
+		"iot-unit": "https://iotdb.org/pub/iot-unit#",
+		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
+		"obo" : "http://purl.obolibrary.org/obo/",
+		"dcat" : "http://purl.org/ctic/dcat#",
+		"label": { 
+			"@id": "rdfs:label", 
+			"@language": "en" 
+		},
+		"comment": { 
+			"@id": "rdfs:comment", 
+			"@language": "en" 
+		},
+		"StartDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:startedAtTime"
+        },
+        "EndDate" : {
+          "@type" : "xsd:dateTime",
+          "@id" : "prov:endedAtTime"
+        },
+		"wasgeneratedby" : {
+		    "@type": "@id", 
+			"@id": "prov:wasGeneratedBy"
+		},
+		"dataset" : {
+		    "@type": "@id", 
+			"@id": "dcat:Dataset"
+		},
+		"name" : {
+		   "@type" : "xsd:string",	
+		   "@id" : "vcard:hasName"
+		},
+		"email" : {
+		   "@type" : "xsd:string",	
+		   "@id" : "vcard:hasEmail"
+		},
+		"country" : {
+			"@type" : "xsd:string",	
+		    "@id" : "vcard:hasCountryName"
+		},
+		"admin" : {
+		    "@type" : "@id",
+		    "@id" : "vcard:Individual"
+		},
+		"coll_location" : {
+		    "@type" : "@id",
+		    "@id" : "vcard:Location"
+		},
+		"location" : {
+		    "@type" : "xsd:string",	
+		    "@id" : "dul:hasLocation"
+		},
+	    "latitude" : {
+			"@type" : "xsd:double",
+		    "@id" : "geo:lat"
+		},
+	    "longitude" : {
+			"@type" : "xsd:double",
+		    "@id" : "geo:long"
+		},
+		"installDate" : {
+			"@id" : "dc:date",
+		    "@type" : "xsd:date"
+		},
+		"datasheet" : {
+			"@type" : "xsd:anyURI",
+		    "@id" : "ssn:SensorDataSheet"
+		},
+	    "observes" : {
+			"@type" : "xsd:string",
+		    "@id" : "ssn:observes"
+		},
+	    "frequency" : {
+			"@type" : "xsd:integer",
+		    "@id" : "ssn:Frequency"
+		},
+	    "unit" : {
+			"@type" : "xsd:string",
+		    "@id" : "iot:Unit"
+		},
+		"valMin" : {
+			"@type" : "xsd:float",
+		    "@id" : "iot:minimum"
+		},
+		"valMax" : {
+			"@type" : "xsd:float",
+		    "@id" : "iot:maximum"
+		},
+		"sensors" : {
+			"@type" : "@id",
+		    "@id" : "ssn:SensingDevice"
+		},
+		"variable" :{
+		    "@type" : "@id",
+		    "@id" : "ssn:MeasurementProperty"	
+		},
+		"characteristic" : {
+			"@type" : "xsd:string",
+			"@id" : "isweb:Characteristic"
+		},
+		"entity" : {
+			"@type" : "xsd:string",
+			"@id" : "obo:BFO_0000001" 
+		},
+		"iot-purpose": "https://iotdb.org/pub/iot-purpose#",
+		"iot:purpose": {
+			"@id": "https://iotdb.org/pub/iot#purpose",
+			"@type": "@id"
+		},
+		"iot-unit": "https://iotdb.org/pub/iot-unit#",
+		"iot:unit": {
+			"@id": "https://iotdb.org/pub/iot#unit",
+			"@type": "@id"
+		},
+		"iot:type": {
+			"@id": "https://iotdb.org/pub/iot#type",
+			"@type": "@id"
+		}
+		
+	},
+	  "@id": "http://ontology.cybershare.utep.edu/livinglab/scllv",
+	  "@type": "iot:Model",
+	  "label" : "Smart Cities Living Lab Vocabulary",
+	  "iot:attribute": [
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#temperature",
+		  "iot:purpose": "iot-purpose:temperature",
+		  "iot:unit": "iot-unit:temperature.si.celsius",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "temperature",
+		  "comment" : "numeric temperature value measured in celsius by a temperature sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#pressure",
+		  "iot:purpose": "iot-purpose:pressure",
+		  "iot:unit": "iot-unit:pressure.si.pascal.3",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "pressure",
+		  "comment" : "numeric pressure value measured un Kilo Pascal by a barometer sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#noise",
+		  "iot:purpose": "iot-purpose:sound",
+		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "noise",
+		  "comment" : "numeric noise value measured in decibels by a microphone sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#light",
+		  "iot:purpose": "iot-purpose:light",
+		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "light",
+		  "comment" : "numeric light value measured in lumens by a light sensor"
+		}
+	  ],
+	  "iot:meta" : [
+		{ "@type": "owl:Class",
+		  "@id": "#board",
+		  "label" : "board",
+		  "comment" : "development prototyping board based on microcontroller architectures"
+		},
+		{ "@type": "owl:DatatypeProperty",
+		  "@id": "#serialNumber",
+		  "label" : "serial number",
+		  "comment" : " a unique identifier assigned incrementally or sequentially to an item"
+		},
+		{ "@type": "owl:DatatypeProperty",
+		  "@id": "#macAddress",
+		  "label" : "media access control address",
+		  "comment" : "a unique identifier assigned tonetwork interfaces for communications on the physical network segment"
+		},
+		{ "@type": "owl:DatatypeProperty",
+		  "@id": "#protocol",
+		  "label" : "protocol",
+		  "comment" : "is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity"
+		},
+	    { "@type": "owl:DatatypeProperty",
+		  "@id": "#partName",
+		  "label" : "part name",
+		  "comment" : "a word that names a part of a larger whole"
+		},
+	    { "@type": "owl:DatatypeProperty",
+		  "@id": "#deviceType",
+		  "label" : "type",
+		  "comment" : "Signal type used by a device (analog or digital)"
+		}
+	  ]
+}

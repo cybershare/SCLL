@@ -1,0 +1,23 @@
+CREATE MODEL Observation WITH
+    schema:name = "Metar Observation"
+ATTRIBUTE temperature WITH
+    iot:purpose = iot-purpose:temperature,
+    iot:unit = iot-unit:temperature.si.celsius,
+    iot:type = iot:type.number,
+    iot:read = true
+ATTRIBUTE pressure WITH
+    iot:purpose = iot-purpose:pressure,
+    iot:unit = iot-unit:pressure.si.pascal,
+    iot:type = iot:type.number,
+    iot:read = true
+ATTRIBUTE noise WITH
+    iot:purpose = iot-purpose:sound,
+    iot:unit = iot-unit:math.fraction.percent,
+    iot:type = iot:type.number,
+    iot:read = true
+ATTRIBUTE light WITH
+    iot:purpose = iot-purpose:light,
+    iot:unit = iot-unit:math.fraction.percent,
+    iot:type = iot:type.number,
+    iot:read = true
+;

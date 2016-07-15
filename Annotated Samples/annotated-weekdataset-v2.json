@@ -1,0 +1,19 @@
+{
+    "@context": "http://ontology.cybershare.utep.edu/livinglab/scllv.jsonld",
+    "@id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
+    "@type" : "prov:Activity",
+	"label": "Weekly Livinglab Sensing Activity",
+	"StartDate" : "2016-07-06T19:04:44.000Z",
+    "EndDate" : "2016-07-06T19:04:44.000Z",
+	"dataset": [
+	    {
+		  "@type": "prov:Entity",
+		  "date": "2016-07-06T18:47:54Z",
+		  "temperature": "29.49",
+		  "pressure": "85.35",
+		  "light": "7",
+		  "noise": "23.46",
+		  "wasgeneratedby" : "577f11019494f235d7f2b49c"
+		}
+	]
+}
