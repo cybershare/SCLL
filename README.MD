@@ -3,6 +3,9 @@ Semantic annotation process for the JSON collections generated from the UDG Livi
 This module project is part of the Living Labs for Smart Cities use case in Guadalajara City.
 
 ## History
++ 7/19/2016:
+	- Creation of the scllv-meta ontology and sample documentation with the following IRI:
+	  http://ontology.cybershare.utep.edu/smart-cities/scllv-meta
 + 7/15/2016:
 	- Initial development version of the Smart Cities Living Lab Vocabulary (ssllv) in JSON-LD format.
 + 7/7/2016: 
