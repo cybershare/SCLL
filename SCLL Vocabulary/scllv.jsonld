@@ -2,11 +2,12 @@
 	"@context" : {  
 	    "@base" : "http://ontology.cybershare.utep.edu/smart-cities/scllv",
 		"@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
+		"scllv" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
+		"scllv-meta" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
 	    "xsd" : "http://www.w3.org/2001/XMLSchema#",
 	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"owl": "http://www.w3.org/2002/07/owl#",
 		"dc" : "http://purl.org/dc/elements/1.1/",
-		"scllv-meta" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
 		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
 		"vcard": "http://www.w3.org/2006/vcard/ns#",
 		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
@@ -81,10 +82,6 @@
 			"@type" : "xsd:string",
 		    "@id" : "ssn:observes"
 		},
-	    "frequency" : {
-			"@type" : "xsd:integer",
-		    "@id" : "ssn:Frequency"
-		},
 	    "unit" : {
 			"@type" : "xsd:string",
 		    "@id" : "iot:Unit"
@@ -113,7 +110,7 @@
 			"@type" : "xsd:string",
 			"@id" : "obo:BFO_0000001" 
 		},
-		"board" : {
+		"boardName" : {
 			"@type" : "xsd:string",
 			"@id" : "scllv-meta:board"
 		},
@@ -136,6 +133,10 @@
 		"type" : {
 			"@type" : "xsd:string",
 			"@id" : "scllv-meta:deviceType"
+		},
+		"assembledBy" :{
+			"@type" : "xsd:string",
+			"@id" : "scllv-meta:assembledBy"
 		},
 		"characteristic" : {
 			"@type" : "xsd:string",
@@ -167,7 +168,7 @@
 		  "@type": "iot:Attribute",
 		  "@id": "#pressure",
 		  "iot:purpose": "iot-purpose:pressure",
-		  "iot:unit": "iot-unit:pressure.si.pascal.3",
+		  "iot:unit": "scllv:pressure.si.pascal.3",
 		  "iot:type": "iot:type.number",
 		  "iot:read": true,
 		  "iot:write": false,
@@ -180,7 +181,7 @@
 		  "@type": "iot:Attribute",
 		  "@id": "#noise",
 		  "iot:purpose": "iot-purpose:sound",
-		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:unit": "scvll:noise.si.decibel",
 		  "iot:type": "iot:type.number",
 		  "iot:read": true,
 		  "iot:write": false,
@@ -193,7 +194,7 @@
 		  "@type": "iot:Attribute",
 		  "@id": "#light",
 		  "iot:purpose": "iot-purpose:light",
-		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:unit": "iot-unit:light.si.lumen",
 		  "iot:type": "iot:type.number",
 		  "iot:read": true,
 		  "iot:write": false,
@@ -201,6 +202,28 @@
 		  "iot:actuator": false,
 		  "label" : "light",
 		  "comment" : "numeric light value measured in lumens by a light sensor"
+		}
+	  ],
+	  "iot:item" : [
+		{
+		  "@id" : "#pressure.si.pascal.3",
+		  "@type": "iot:Unit", 
+		  "iot:conversion": "[pressure.si.pascal]*1000", 
+		  "label" : "kilo-pascal",
+		  "comment" : "unit of pressure"
+		},
+		{
+		  "@id" : "#noise.si.decibel",
+		  "@type": "iot:Unit", 
+		  "label" : "decibel",
+          "comment" : "A ratio unit which is an indicator of sound power per unit area. (m3-lite)"		  
+		},
+		{
+		  "@id" : "#frequency",
+		  "@type": "ssn:Frequency", 
+		  "label" : "Measurement per minute",
+		  "iot:conversion" : "(1/60)*[iot-unit:math.si.hertz]",
+          "comment" : "Frequency of a measurement as one per minute or 1/60 herz"			
 		}
 	  ]
 }

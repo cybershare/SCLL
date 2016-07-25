@@ -2,7 +2,8 @@
     "@context" : "http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld", 
     "@id" : "56b3a9d27de952005f38a69b",
 	"@type" : "ssn:Device",
-	"board" : "GalileoV2",
+	"boardName" : "GalileoV2",
+	"assembledBy" : "Gustavo",
 	"serialNumber" : "FZGL40701DN7",
 	"macAddress" : "98:4f:ee:00:e1:a6",
     "protocol" : "MQTT",
@@ -32,7 +33,7 @@
 			"variable" : [
 				{
 				    "@type":"ssn:MeasurementProperty",
-					"observes" : "light",
+					"characteristic" : "light",
 					"unit" : "Lumens",
 					"valMin" : 0,
 					"valMax" : 5047,
@@ -51,7 +52,7 @@
 			"installDate" : "2012-04-23T18:25:43.511Z",
 			"variable" : [
 				{   "@type":"ssn:MeasurementProperty",
-					"observes" : "temperature",
+					"characteristic" : "temperature",
 					"unit" : "Celsius",
 					"valMin" : -40,
 					"valMax" : 150,
@@ -59,7 +60,7 @@
 				},
 				{
 				    "@type":"ssn:MeasurementProperty",
-					"observes" : "pressure",
+					"characteristic" : "pressure",
 					"unit" : "kBp",
 					"valMin" : 50,
 					"valMax" : 115,
@@ -79,7 +80,7 @@
 			"variable" : [
 				{
 				    "@type":"ssn:MeasurementProperty",
-					"observes" : "noise",
+					"characteristic" : "noise",
 					"unit" : "dB",
 					"valMin" : 0,
 					"valMax" : 1024,

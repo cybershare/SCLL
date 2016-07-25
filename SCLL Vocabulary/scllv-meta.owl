@@ -1,60 +1,45 @@
 <?xml version="1.0"?>
-
-<!DOCTYPE rdf:RDF [
-
-	<!ENTITY terms "http://purl.org/dc/terms/" >
-    <!ENTITY vann "http://purl.org/vocab/vann/" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
-	<!ENTITY cc "http://creativecommons.org/ns#" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY ns0 "http://protege.stanford.edu/plugins/owl/protege#" >
-]>
-
-
 <rdf:RDF xmlns="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#"
      xml:base="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta"
+     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-	 xmlns:ns0="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-	 xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ns0="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	 xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns:cc="http://creativecommons.org/ns#"
-	 xmlns:terms="http://purl.org/dc/terms/">
-	 
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta">
-        <owl:versionInfo rdf:datatype="&xsd;string">1.0</owl:versionInfo>
-        <dc:issued rdf:datatype="&xsd;date">2016-07-19</dc:issued>
-        <terms:modified rdf:datatype="&xsd;date">2016-07-19</terms:modified>
-        <dc:contributor rdf:datatype="&xsd;string">
+        <owl:versionIRI rdf:resource="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta.owl"/>
+        <vann:preferredNamespacePrefix xml:lang="en">scllv-meta</vann:preferredNamespacePrefix>
+        <cc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://creativecommons.org/licenses/by/3.0/</cc:license>
+        <dc:creator xml:lang="en">iLink @ UTEP</dc:creator>
+        <rdfs:isDefinedBy rdf:resource="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta.owl"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
 		Natalia Villanueva-Rosales
 		</dc:contributor>
-        <dc:rights rdf:datatype="&xsd;string">Free to use,share,modify. Modify with attribution [http://creativecommons.org/licenses/by/3.0/].</dc:rights>
-        <cc:license rdf:datatype="&xsd;anyURI">http://creativecommons.org/licenses/by/3.0/</cc:license>
-        <dc:creator rdf:datatype="&xsd;anyURI">http://cybershare.utep.edu</dc:creator>
-        <vann:preferredNamespaceUri rdf:datatype="&xsd;string">
-			http://ontology.cybershare.utep.edu/smart-cities/scllv-meta
-		</vann:preferredNamespaceUri>
+        <terms:identifier>scllv-meta.owl</terms:identifier>
+        <terms:modified>2016-07-25</terms:modified>
+        <dc:title xml:lang="en">Smart Cities Living Lab Metadata Vocabulary</dc:title>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cybershare.utep.edu</dc:creator>
         <dc:description xml:lang="en">
 		Custom metadata ontology for Smart Cities Living Lab sensor and device networks.
 		email: nvillanuevarosales@utep.edu
 		</dc:description>
+        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+			http://ontology.cybershare.utep.edu/smart-cities/scllv-meta
+		</vann:preferredNamespaceUri>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free to use,share,modify. Modify with attribution [http://creativecommons.org/licenses/by/3.0/].</dc:rights>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-19</dc:issued>
         <ns0:defaultLanguage>en</ns0:defaultLanguage>
-        <dc:title xml:lang="en">Smart Cities Living Lab Metadata Vocabulary</dc:title>
-        <dc:creator xml:lang="en">iLink @ UTEP</dc:creator>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</owl:versionInfo>
         <dc:creator xml:lang="en">Luis Garnica Chavira</dc:creator>
-        <vann:preferredNamespacePrefix xml:lang="en">scllv-meta</vann:preferredNamespacePrefix>
-        <terms:identifier>scllv-meta.owl</terms:identifier>
-        <owl:versionIRI rdf:resource="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta.owl"/>
-        <rdfs:isDefinedBy rdf:resource="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta.owl"/>
-	
     </owl:Ontology>
-	
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -63,13 +48,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#assembledBy -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#assembledBy">
+        <rdfs:domain rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Name of the person responsable for putting together or assembling a device.</rdfs:comment>
+        <rdfs:label>assembled by</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#board -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#board">
         <rdfs:domain rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Board name of the device.</rdfs:comment>
-        <rdfs:comment>board</rdfs:comment>
+        <rdfs:label>board</rdfs:label>
     </owl:DatatypeProperty>
     
 
