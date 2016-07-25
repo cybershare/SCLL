@@ -1,0 +1,94 @@
+{
+    "_id" : ObjectId("579666747f33332cd3dca513"),
+    "macAddress" : "2222",
+    "protocol" : "MQTT",
+    "assemblyBy" : "Gustavo",
+    "admin" : {
+        "email" : "anasofia_ja@hotmail.com",
+        "@type" : "vcard:Individual",
+        "name" : "Ana Sofia Jauregui Cuevas"
+    },
+    "serialNumber" : "FZGL40701DN7",
+    "coll_location" : {
+        "latitude" : "20.74404799",
+        "country" : "mexico",
+        "@type" : "vcard:Location",
+        "longitude" : "-103.37854919",
+        "location" : "Innovation Center Floor 2"
+    },
+    "datasheet" : "http://www.intel.com/newsroom/kits/quark/galileo/pdfs/Intel_Galileo_Datasheet.pdf",
+    "board" : "Galileov3",
+    "@context" : "http://ontology.cybershare.utep.edu/livinglab/scllv.jsonld",
+    "sensors" : [ 
+        {
+            "installDate" : "2016-07-25T14:20:20.543Z",
+            "characteristic" : "luminosity",
+            "partName" : "TSL2561",
+            "entity" : "environment",
+            "datasheet" : "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf",
+            "type" : "digital",
+            "variable" : [ 
+                {
+                    "valMin" : "0",
+                    "observes" : "light",
+                    "valMax" : "5047",
+                    "frequency" : "1",
+                    "@type" : "ssn:MeasurementProperty",
+                    "unit" : "Lumens"
+                }
+            ],
+            "@id" : "9486501836",
+            "@type" : "ssn:SensingDevice"
+        }, 
+        {
+            "installDate" : "2016-07-25T14:20:20.544Z",
+            "characteristic" : "barometer",
+            "partName" : "MPL115A2",
+            "entity" : "environment",
+            "datasheet" : "http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf",
+            "type" : "digital",
+            "variable" : [ 
+                {
+                    "valMin" : "-40",
+                    "observes" : "temperature",
+                    "valMax" : "150",
+                    "frequency" : "10",
+                    "@type" : "ssn:MeasurementProperty",
+                    "unit" : "Celsius"
+                }, 
+                {
+                    "valMin" : "50",
+                    "observes" : "pressure",
+                    "valMax" : "115",
+                    "frequency" : "10",
+                    "@type" : "ssn:MeasurementProperty",
+                    "unit" : "kBp"
+                }
+            ],
+            "@id" : "2638401839",
+            "@type" : "ssn:SensingDevice"
+        }, 
+        {
+            "installDate" : "2016-07-25T14:20:20.545Z",
+            "characteristic" : "noise",
+            "partName" : "MAX4466",
+            "entity" : "environment",
+            "datasheet" : "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf",
+            "type" : "analog",
+            "variable" : [ 
+                {
+                    "valMin" : "0",
+                    "observes" : "noise",
+                    "valMax" : "1024",
+                    "frequency" : "1",
+                    "@type" : "ssn:MeasurementProperty",
+                    "unit" : "dB"
+                }
+            ],
+            "@id" : "8362936105",
+            "@type" : "ssn:SensingDevice"
+        }
+    ],
+    "@type" : "ssn:Device",
+    "boarId" : "Gus22FZGL"
+}
