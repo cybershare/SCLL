@@ -18,7 +18,7 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 + Human readable version of the scllv jsonld specification.
 
 ## Try Out at the JSON-LD Playground!
-+ The playground uses the jsonld.js JSON-LD processor to output a semantically rich version of our JSON samples by linking the JSON fields to web published vocabularies. 
++ The playground uses the jsonld.js JSON-LD processor to output a semantically rich version of our JSON samples by linking the JSON fields to standard terms on web published vocabularies.
   
 + Copy and paste our currently annotated JSON samples to http://json-ld.org/playground/
 	- Weekly Dataset Sample : https://github.com/cybershare/SCLL/blob/master/Annotated%20Samples/annotated-weekdataset-final.json
