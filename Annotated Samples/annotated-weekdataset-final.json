@@ -1,5 +1,5 @@
 {
-    "@context": "http://ontology.cybershare.utep.edu/livinglab/scllv.jsonld",
+    "@context": "http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld",
     "@id" : "2d117ce2-4481-11e6-beb8-9e71128cae77",
     "@type" : "prov:Activity",
 	"label": "Weekly Livinglab Sensing Activity",
