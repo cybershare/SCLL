@@ -1,7 +1,6 @@
-{
-	"@context" : {  
+{   
+    "@context" : {  
 	    "@base" : "http://ontology.cybershare.utep.edu/smart-cities/scllv",
-		"@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
 	    "xsd" : "http://www.w3.org/2001/XMLSchema#",
 	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"owl": "http://www.w3.org/2002/07/owl#",
@@ -133,5 +132,93 @@
 			"@type" : "xsd:string",
 			"@id" : "isweb:Characteristic"
 		}	
-	}
+	},
+    "@id" : "56b3a9d27de952005f38a69b",
+	"@type" : "ssn:Device",
+	"board" : "GalileoV2",
+	"serialNumber" : "FZGL40701DN7",
+	"macAddress" : "98:4f:ee:00:e1:a6",
+    "protocol" : "MQTT",
+	"datasheet": "http://www.intel.com/newsroom/kits/quark/galileo/pdfs/Intel_Galileo_Datasheet.pdf",
+	"admin" : {
+	    "@type" : "vcard:Individual",
+        "name" : "Ana Sofía Jáuregui Cuevas",
+        "email" : "anasofia_ja@hotmail.com"
+    },
+    "coll_location" : {
+        "@type" : "vcard:Location",
+        "country" : "mexico",
+        "location" : "Innovation Center Floor 2",
+        "latitude" : 20.7440479999999990,
+        "longitude" : -103.3785491999999900
+    },
+	"sensors" : [
+		{
+		    "@id" : "577f10f29494f235d7f2b49b",
+		    "@type": "ssn:SensingDevice",
+			"partName" : "TSL2561",
+			"characteristic" : "luminosity",
+			"type" : "digital",
+			"entity" : "environment",
+			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "light",
+					"unit" : "Lumens",
+					"valMin" : 0,
+					"valMax" : 5047,
+					"frequency" : 1
+				}
+			]
+		},
+		{
+		    "@id" : "577f11069494f235d7f2b49d",
+		    "@type": "ssn:SensingDevice",
+			"partName" : "MPL115A2",			
+			"characteristic" : "barometer",
+			"type" : "digital",
+			"entity" : "environment",
+			"datasheet" : "http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{   "@type":"ssn:MeasurementProperty",
+					"observes" : "temperature",
+					"unit" : "Celsius",
+					"valMin" : -40,
+					"valMax" : 150,
+				    "frequency" : 10
+				},
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "pressure",
+					"unit" : "kBp",
+					"valMin" : 50,
+					"valMax" : 115,
+					"frequency" : 10
+				}
+			]
+		},
+		{
+		    "@id" : "577f11019494f235d7f2b49c",
+			"@type": "ssn:SensingDevice", 
+			"partName" : "MAX4466",
+			"characteristic" : "noise",
+			"type" : "analog",
+			"entity" : "environment",
+			"datasheet" : "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf",
+			"installDate" : "2012-04-23T18:25:43.511Z",
+			"variable" : [
+				{
+				    "@type":"ssn:MeasurementProperty",
+					"observes" : "noise",
+					"unit" : "dB",
+					"valMin" : 0,
+					"valMax" : 1024,
+					"frequency" : 1 
+				}
+			]
+		}
+	]
 }

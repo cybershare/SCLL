@@ -1,7 +1,8 @@
 {
-	"@context" : {  
-	    "@base" : "http://ontology.cybershare.utep.edu/smart-cities/scllv",
-		"@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
+    "@context" : {  
+		"@base" : "http://ontology.cybershare.utep.edu/smart-cities/scllv",
+	    "@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
+		"scllv-meta" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
 	    "xsd" : "http://www.w3.org/2001/XMLSchema#",
 	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"owl": "http://www.w3.org/2002/07/owl#",
@@ -13,10 +14,9 @@
 		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
 		"iot": "https://iotdb.org/pub/iot#",
 		"iot-unit": "https://iotdb.org/pub/iot-unit#",
+		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
 		"obo" : "http://purl.obolibrary.org/obo/",
 		"dcat" : "http://purl.org/ctic/dcat#",
-		"scllv-meta" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
-		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
 		"label": { 
 			"@id": "rdfs:label", 
 			"@language": "en" 
@@ -33,6 +33,14 @@
           "@type" : "xsd:dateTime",
           "@id" : "prov:endedAtTime"
         },
+		"wasgeneratedby" : {
+		    "@type": "@id", 
+			"@id": "prov:wasGeneratedBy"
+		},
+		"dataset" : {
+		    "@type": "@id", 
+			"@id": "dcat:Dataset"
+		},
 		"name" : {
 		   "@type" : "xsd:string",	
 		   "@id" : "vcard:hasName"
@@ -101,37 +109,37 @@
 		    "@type" : "@id",
 		    "@id" : "ssn:MeasurementProperty"	
 		},
+		"characteristic" : {
+			"@type" : "xsd:string",
+			"@id" : "isweb:Characteristic"
+		},
 		"entity" : {
 			"@type" : "xsd:string",
 			"@id" : "obo:BFO_0000001" 
 		},
-		"board" : {
+        "board" : {
 			"@type" : "xsd:string",
-			"@id" : "scllv-meta:board"
+		    "@id" : "scllv-meta:board" 
 		},
-		"serialNumber" : {
+        "serialNumber" : {
 			"@type" : "xsd:string",
-			"@id" : "scllv-meta:serialNumber"
+			"@id" : "scllv-meta:serialNumber" 
 		},
 		"macAddress" : {
 			"@type" : "xsd:string",
-			"@id" : "scllv-meta:macAddress"
+		    "@id" : "scllv-meta:macAddress"
 		},
 		"protocol" : {
-			"@type" : "xsd:string",
-			"@id" : "scllv-meta:protocol"
+		    "@type" : "xsd:string",
+		    "@id" : "scllv-meta:protocol"
 		},
-        "partName" : {
-			"@type" : "xsd:string",
-			"@id" : "scllv-meta:partName"
+		"partName" : {
+		    "@type" : "xsd:string",
+		    "@id" : "scllv-meta:partName"
 		},
 		"type" : {
-			"@type" : "xsd:string",
-			"@id" : "scllv-meta:deviceType"
-		},
-		"characteristic" : {
-			"@type" : "xsd:string",
-			"@id" : "isweb:Characteristic"
-		}	
+		    "@type" : "xsd:string",
+		    "@id" : "scllv-meta:deviceType"
+		}
 	}
 }

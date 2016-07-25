@@ -1,0 +1,78 @@
+{ "@context" : {
+		"@base" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-measurement",
+	    "@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-measurement#",
+		"iot": "https://iotdb.org/pub/iot#",
+		"iot-unit": "https://iotdb.org/pub/iot-unit#",
+	    "iot-purpose": "https://iotdb.org/pub/iot-purpose#",
+		"iot:purpose": {
+			"@id": "https://iotdb.org/pub/iot#purpose",
+			"@type": "@id"
+		},
+		"iot-unit": "https://iotdb.org/pub/iot-unit#",
+		"iot:unit": {
+			"@id": "https://iotdb.org/pub/iot#unit",
+			"@type": "@id"
+		},
+		"iot:type": {
+			"@id": "https://iotdb.org/pub/iot#type",
+			"@type": "@id"
+		}
+	},
+		"@id": "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta",
+		"@type": "iot:Model",
+		"label" : "Smart Cities Living Lab Vocabulary",
+		"iot:attribute": [
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#temperature",
+		  "iot:purpose": "iot-purpose:temperature",
+		  "iot:unit": "iot-unit:temperature.si.celsius",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "temperature",
+		  "comment" : "numeric temperature value measured in celsius by a temperature sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#pressure",
+		  "iot:purpose": "iot-purpose:pressure",
+		  "iot:unit": "iot-unit:pressure.si.pascal.3",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "pressure",
+		  "comment" : "numeric pressure value measured un Kilo Pascal by a barometer sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#noise",
+		  "iot:purpose": "iot-purpose:sound",
+		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "noise",
+		  "comment" : "numeric noise value measured in decibels by a microphone sensor"
+		},
+		{
+		  "@type": "iot:Attribute",
+		  "@id": "#light",
+		  "iot:purpose": "iot-purpose:light",
+		  "iot:unit": "iot-unit:math.fraction.percent",
+		  "iot:type": "iot:type.number",
+		  "iot:read": true,
+		  "iot:write": false,
+		  "iot:sensor": true,
+		  "iot:actuator": false,
+		  "label" : "light",
+		  "comment" : "numeric light value measured in lumens by a light sensor"
+		}
+	  ]
+}

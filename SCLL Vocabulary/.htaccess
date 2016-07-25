@@ -1,3 +1,5 @@
+Header set Connection keep-alive 
+
 # Turn off MultiViews
 Options -MultiViews
 
@@ -5,6 +7,7 @@ Options -MultiViews
 # if not present in main apache config
 AddType application/rdf+xml .rdf
 AddType application/rdf+xml .owl
+AddType application/json .jsonld
 
 # Rewrite engine setup
 RewriteEngine On
@@ -26,3 +29,4 @@ RewriteRule ^scllv-meta$ scllv-meta.owl [R=303]
 
 # Rewrite rule to serve the RDF/XML content from the vocabulary URI by default
 RewriteRule ^scllv-meta$ scllv-meta.owl [R=303]
+RewriteRule ^scllv$ scllv.jsonld [R=303]

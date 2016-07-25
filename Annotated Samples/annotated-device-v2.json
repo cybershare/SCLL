@@ -1,5 +1,5 @@
 {   
-    "@context" : "http://ontology.cybershare.utep.edu/livinglab/scllv.jsonld",
+    "@context" : "http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld",
     "@id" : "56b3a9d27de952005f38a69b",
 	"@type" : "ssn:Device",
 	"board" : "GalileoV2",
