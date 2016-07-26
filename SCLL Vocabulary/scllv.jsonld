@@ -4,8 +4,8 @@
 		"@vocab" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
 		"scllv" : "http://ontology.cybershare.utep.edu/smart-cities/scllv#",
 		"scllv-meta" : "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
-	    "xsd" : "http://www.w3.org/2001/XMLSchema#",
-	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"xsd" : "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"owl": "http://www.w3.org/2002/07/owl#",
 		"dc" : "http://purl.org/dc/elements/1.1/",
 		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
@@ -27,44 +27,44 @@
 			"@language": "en" 
 		},
 		"StartDate" : {
-          "@type" : "xsd:dateTime",
-          "@id" : "prov:startedAtTime"
-        },
-        "EndDate" : {
-          "@type" : "xsd:dateTime",
-          "@id" : "prov:endedAtTime"
-        },
+			"@type" : "xsd:dateTime",
+			"@id" : "prov:startedAtTime"
+		},
+		"EndDate" : {
+			"@type" : "xsd:dateTime",
+			"@id" : "prov:endedAtTime"
+		},
 		"name" : {
-		   "@type" : "xsd:string",	
-		   "@id" : "vcard:hasName"
+			"@type" : "xsd:string",	
+			"@id" : "vcard:hasName"
 		},
 		"email" : {
-		   "@type" : "xsd:string",	
-		   "@id" : "vcard:hasEmail"
+			"@type" : "xsd:string",	
+			"@id" : "vcard:hasEmail"
 		},
 		"country" : {
 			"@type" : "xsd:string",	
-		    "@id" : "vcard:hasCountryName"
+			"@id" : "vcard:hasCountryName"
 		},
 		"admin" : {
-		    "@type" : "@id",
-		    "@id" : "vcard:Individual"
+			"@type" : "@id",
+			"@id" : "vcard:Individual"
 		},
 		"coll_location" : {
-		    "@type" : "@id",
-		    "@id" : "vcard:Location"
+			"@type" : "@id",
+			"@id" : "vcard:Location"
 		},
 		"location" : {
-		    "@type" : "xsd:string",	
-		    "@id" : "dul:hasLocation"
+			"@type" : "xsd:string",	
+			"@id" : "dul:hasLocation"
 		},
-	    "latitude" : {
+		"latitude" : {
 			"@type" : "xsd:double",
-		    "@id" : "geo:lat"
+			"@id" : "geo:lat"
 		},
-	    "longitude" : {
+		"longitude" : {
 			"@type" : "xsd:double",
-		    "@id" : "geo:long"
+			"@id" : "geo:long"
 		},
 		"date" : {
 			"@id" : "dc:date",
@@ -72,39 +72,39 @@
 		},
 		"installDate" : {
 			"@id" : "dc:date",
-		    "@type" : "xsd:date"
+			"@type" : "xsd:date"
 		},
 		"datasheet" : {
 			"@type" : "xsd:anyURI",
-		    "@id" : "ssn:SensorDataSheet"
+			"@id" : "ssn:SensorDataSheet"
 		},
-	    "observes" : {
+		"observes" : {
 			"@type" : "xsd:string",
-		    "@id" : "ssn:observes"
+			"@id" : "ssn:observes"
 		},
-	    "unit" : {
+		"unit" : {
 			"@type" : "xsd:string",
-		    "@id" : "iot:Unit"
+			"@id" : "iot:Unit"
 		},
 		"valMin" : {
 			"@type" : "xsd:float",
-		    "@id" : "iot:minimum"
+			"@id" : "iot:minimum"
 		},
 		"valMax" : {
 			"@type" : "xsd:float",
-		    "@id" : "iot:maximum"
+			"@id" : "iot:maximum"
 		},
 		"sensors" : {
 			"@type" : "@id",
-		    "@id" : "ssn:SensingDevice"
+			"@id" : "ssn:SensingDevice"
 		},
 		"wasgeneratedby" : {
 			"@type" : "@id",
-		    "@id" : "ssn:SensingDevice"
+			"@id" : "ssn:SensingDevice"
 		},
 		"variable" :{
-		    "@type" : "@id",
-		    "@id" : "ssn:MeasurementProperty"	
+			"@type" : "@id",
+			"@id" : "ssn:MeasurementProperty"	
 		},
 		"entity" : {
 			"@type" : "xsd:string",
@@ -126,7 +126,7 @@
 			"@type" : "xsd:string",
 			"@id" : "scllv-meta:protocol"
 		},
-        "partName" : {
+		"partName" : {
 			"@type" : "xsd:string",
 			"@id" : "scllv-meta:partName"
 		},
@@ -142,9 +142,9 @@
 			"@type" : "xsd:string",
 			"@id" : "isweb:Characteristic"
 		},
-        "dataset" : {
+		"dataset" : {
 			"@type" : "@id",
-		    "@id" : "dcat:Dataset"
+			"@id" : "dcat:Dataset"
 		}
 	},
 		"@id": "http://ontology.cybershare.utep.edu/smart-cities/scllv",
@@ -203,8 +203,8 @@
 		  "label" : "light",
 		  "comment" : "numeric light value measured in lumens by a light sensor"
 		}
-	  ],
-	  "iot:item" : [
+	],
+		"iot:item" : [
 		{
 		  "@id" : "#pressure.si.pascal.3",
 		  "@type": "iot:Unit", 
@@ -216,14 +216,14 @@
 		  "@id" : "#noise.si.decibel",
 		  "@type": "iot:Unit", 
 		  "label" : "decibel",
-          "comment" : "A ratio unit which is an indicator of sound power per unit area. (m3-lite)"		  
+		  "comment" : "A ratio unit which is an indicator of sound power per unit area. (m3-lite)"		  
 		},
 		{
 		  "@id" : "#frequency",
 		  "@type": "ssn:Frequency", 
 		  "label" : "Measurement per minute",
 		  "iot:conversion" : "(1/60)*[iot-unit:math.si.hertz]",
-          "comment" : "Frequency of a measurement as one per minute or 1/60 herz"			
+		  "comment" : "Frequency of a measurement as one per minute or 1/60 herz"			
 		}
 	  ]
 }
