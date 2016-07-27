@@ -3,6 +3,8 @@ Semantic annotation process for the JSON collections generated from the UDG Livi
 This module project is part of the Living Labs for Smart Cities use case in Guadalajara City.
 
 ## History
++ 7/27/2016:
+	- First draft documentation for the sensor network data model.
 + 7/25/2016:
 	- Finished vocabularies. scllv: jsonld specification to the UDG Living Lab  and scllv-meta owl specification of extended metadata).
 + 7/19/2016:
@@ -17,6 +19,15 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 + Automatic annotation of generated jsons from the UDG Living Lab with the scll vocabulary.
 + Human readable version of the scllv jsonld specification.
 
+## Results
++ Smart Cities Living Lab Vocabulary (scllv)
+	- References existing vocabulary terms and adds extended meaning to some terms.
+	- Context declaration for fields used on the UDG - Living Lab sensor data repository. 
+		http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld
++ Smart Cities Living Lab Metadata Vocabulary (scllv-meta): OWL Ontology for custom vocabulary terms.
+	- OWL-based vocabulary for custom terms (not coming from external source vocabularies).
+		http://ontology.cybershare.utep.edu/smart-cities/scllv-meta
+	
 ## Try Out at the JSON-LD Playground!
 + The playground uses the jsonld.js JSON-LD processor to output a semantically rich version of our JSON samples by linking the JSON fields to standard terms on web published vocabularies.
   
