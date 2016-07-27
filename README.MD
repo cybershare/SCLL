@@ -24,8 +24,8 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 	- References existing vocabulary terms and adds extended meaning to some terms.
 	- Context declaration for fields used on the UDG - Living Lab sensor data repository. 
 		http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld
-+ Smart Cities Living Lab Metadata Vocabulary (scllv-meta): OWL Ontology for custom vocabulary terms.
-	- OWL-based vocabulary for custom terms (not coming from external source vocabularies).
++ Smart Cities Living Lab Metadata Vocabulary (scllv-meta)
+	- OWL-based ontology for custom terms (not coming from external source vocabularies).
 		http://ontology.cybershare.utep.edu/smart-cities/scllv-meta
 	
 ## Try Out at the JSON-LD Playground!
