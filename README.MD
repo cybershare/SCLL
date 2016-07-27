@@ -38,6 +38,8 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 + If there are problems from the playground to load the external json-ld context file try the following:
 	- Use google chrome and download the extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
 	- Once located at the json-ld playground make sure to enable CORS so that the referenced jsonld context can be loaded from the json-ld.org domain.  
+
++ Sucessfully tested with: Google Chrome v51 with enabled CORS, Mozilla Firefox v47 and IE v11. 
 	
 ## Participating Institutions
 + Universidad de Guadalajara (UDG)
