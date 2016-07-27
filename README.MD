@@ -31,14 +31,14 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 ## Try Out at the JSON-LD Playground!
 + The playground uses the jsonld.js JSON-LD processor to output a semantically rich version of our JSON samples by linking the JSON fields to standard terms on web published vocabularies.
   
-+ Tested using Google Chrome with enabled CORS extension.
-	- Use google chrome and download the extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
-	- Once located at the json-ld playground make sure to enable CORS so that the referenced jsonld context can be loaded from the json-ld.org domain. 
-  
 + Copy and paste our currently annotated JSON samples to http://json-ld.org/playground/
 	- Weekly Dataset Sample : https://github.com/cybershare/SCLL/blob/master/Annotated%20Samples/annotated-weekdataset-final.json
 	- Device Information Sample: https://github.com/cybershare/SCLL/blob/master/Annotated%20Samples/annotated-device-final.json
 
++ If there are problems from the playground to load the external json-ld context file try the following:
+	- Use google chrome and download the extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+	- Once located at the json-ld playground make sure to enable CORS so that the referenced jsonld context can be loaded from the json-ld.org domain.  
+	
 ## Participating Institutions
 + Universidad de Guadalajara (UDG)
 + University of Texas at El Paso (UTEP)

@@ -1,3 +1,7 @@
+#Enable CORS
+Header set Access-Control-Allow-Origin "*"
+
+#Keep connection alive
 Header set Connection keep-alive 
 
 # Turn off MultiViews
