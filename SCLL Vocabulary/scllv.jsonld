@@ -152,7 +152,7 @@
 		"label" : "Smart Cities Living Lab Vocabulary",
 		"iot:attribute": [
 		{
-		  "@type": "iot:Attribute",
+		  "@type": "xsd:float",
 		  "@id": "#temperature",
 		  "iot:purpose": "iot-purpose:temperature",
 		  "iot:unit": "iot-unit:temperature.si.celsius",
@@ -165,7 +165,7 @@
 		  "comment" : "numeric temperature value measured in celsius by a temperature sensor"
 		},
 		{
-		  "@type": "iot:Attribute",
+		  "@type": "xsd:float",
 		  "@id": "#pressure",
 		  "iot:purpose": "iot-purpose:pressure",
 		  "iot:unit": "scllv:pressure.si.pascal.3",
@@ -178,7 +178,7 @@
 		  "comment" : "numeric pressure value measured un Kilo Pascal by a barometer sensor"
 		},
 		{
-		  "@type": "iot:Attribute",
+		  "@type": "xsd:float",
 		  "@id": "#noise",
 		  "iot:purpose": "iot-purpose:sound",
 		  "iot:unit": "scvll:noise.si.decibel",
@@ -191,7 +191,7 @@
 		  "comment" : "numeric noise value measured in decibels by a microphone sensor"
 		},
 		{
-		  "@type": "iot:Attribute",
+		  "@type": "xsd:float",
 		  "@id": "#light",
 		  "iot:purpose": "iot-purpose:light",
 		  "iot:unit": "iot-unit:light.si.lumen",
