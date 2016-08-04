@@ -1,0 +1,97 @@
+{
+	"_id": {
+		"$oid": "57a260297f333379324d41f0"
+	},
+	"macAddress": "98:4f:ee:00:e1:a6",
+	"protocol": "MQTT",
+	"assemblyBy": "Gustavo",
+	"admin": {
+		"name": "Ana Sofia Jauregui Cuevas",
+		"email": "anasofia_ja@hotmail.com",
+		"@type": "vcard:Individual"
+	},
+	"serialNumber": "FZGL40701DN7",
+	"boarName": "Gus98FZGL",
+	"datasheet": "http://www.intel.com/newsroom/kits/quark/galileo/pdfs/Intel_Galileo_Datasheet.pdf",
+	"board": "Galileov3",
+	"sensors": [
+		{
+			"@id": "9486501836",
+			"installDate": "2016-08-03T16:20:41.645Z",
+			"characteristic": "luminosity",
+			"partName": "TSL2561",
+			"entity": "environment",
+			"datasheet": "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf",
+			"variable": [
+				{
+					"valMax": "5047",
+					"frequency": "1",
+					"valMin": "0",
+					"unit": "Lumens",
+					"observes": "light",
+					"@type": "ssn:MeasurementProperty"
+				}
+			],
+			"type": "digital",
+			"@type": "ssn:SensingDevice"
+		},
+		{
+			"@id": "2638401839",
+			"installDate": "2016-08-03T16:20:41.646Z",
+			"characteristic": "barometer",
+			"partName": "MPL115A2",
+			"entity": "environment",
+			"datasheet": "http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf",
+			"variable": [
+				{
+					"valMax": "150",
+					"frequency": "10",
+					"valMin": "-40",
+					"unit": "Celsius",
+					"observes": "temperature",
+					"@type": "ssn:MeasurementProperty"
+				},
+				{
+					"valMax": "115",
+					"frequency": "10",
+					"valMin": "50",
+					"unit": "kBp",
+					"observes": "pressure",
+					"@type": "ssn:MeasurementProperty"
+				}
+			],
+			"type": "digital",
+			"@type": "ssn:SensingDevice"
+		},
+		{
+			"@id": "8362936105",
+			"installDate": "2016-08-03T16:20:41.647Z",
+			"characteristic": "noise",
+			"partName": "MAX4466",
+			"entity": "environment",
+			"datasheet": "https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf",
+			"variable": [
+				{
+					"valMax": "1024",
+					"frequency": "1",
+					"valMin": "0",
+					"unit": "dB",
+					"observes": "noise",
+					"@type": "ssn:MeasurementProperty"
+				}
+			],
+			"type": "analog",
+			"@type": "ssn:SensingDevice"
+		}
+	],
+	"coll_location": {
+		"latitude": "20.74404799",
+		"country": "mexico",
+		"location": "Innovation Center Floor 2",
+		"longitude": "-103.37854919",
+		"@type": "vcard:Location"
+	},
+	"@context": "http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld",
+	"@id": "http://dti.cucea.udg.mx/smart-cities/datasets-scllv/030816/livinglab-device-030816.json",
+	"@type": "ssn:Device"
+}
