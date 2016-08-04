@@ -1,0 +1,2623 @@
+{
+	"_id": {
+		"$oid": "57a276c47f333304c48ef7a9"
+	},
+	"@context": "http://ontology.cybershare.utep.edu/smart-cities/scllv.jsonld",
+	"@id": "http://dti.cucea.udg.mx/smart-cities/datasets-scllv/030816/livinglab-weekdataset-030816.json",
+	"@type": "prov:Activity",
+	"dataset": [
+		{
+			"date": "2016-08-03T16:29:13.206Z",
+			"light": "56",
+			"_id": {
+				"$oid": "57a262297f33337ed28ee1dc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:29:17.031Z",
+			"_id": {
+				"$oid": "57a2622d7f33337ed28ee1dd"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:30:23.929Z",
+			"light": "55",
+			"_id": {
+				"$oid": "57a2626f7f33337ed28ee1de"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:30:27.741Z",
+			"_id": {
+				"$oid": "57a262737f33337ed28ee1df"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.79",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:31:34.645Z",
+			"light": "55",
+			"_id": {
+				"$oid": "57a262b67f33337ed28ee1e0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:31:38.474Z",
+			"_id": {
+				"$oid": "57a262ba7f33337ed28ee1e1"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:32:45.378Z",
+			"light": "54",
+			"_id": {
+				"$oid": "57a262fd7f33337ed28ee1e2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:32:49.209Z",
+			"_id": {
+				"$oid": "57a263017f33337ed28ee1e3"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.26",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:33:56.106Z",
+			"light": "53",
+			"_id": {
+				"$oid": "57a263447f33337ed28ee1e4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:33:59.930Z",
+			"_id": {
+				"$oid": "57a263477f33337ed28ee1e5"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:35:06.839Z",
+			"light": "52",
+			"_id": {
+				"$oid": "57a2638a7f33337ed28ee1e6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:35:10.652Z",
+			"_id": {
+				"$oid": "57a2638e7f33337ed28ee1e7"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.69",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:36:17.550Z",
+			"light": "52",
+			"_id": {
+				"$oid": "57a263d17f33337ed28ee1e8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:36:21.366Z",
+			"_id": {
+				"$oid": "57a263d57f33337ed28ee1e9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:37:28.270Z",
+			"light": "52",
+			"_id": {
+				"$oid": "57a264187f33337ed28ee1ea"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:37:32.093Z",
+			"_id": {
+				"$oid": "57a2641c7f33337ed28ee1eb"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.79",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:38:39.001Z",
+			"light": "52",
+			"_id": {
+				"$oid": "57a2645f7f33337ed28ee1ec"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:38:42.819Z",
+			"_id": {
+				"$oid": "57a264627f33337ed28ee1ed"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.37",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:39:49.728Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a264a57f33337ed28ee1ee"
+			},
+			"temperature": "17.57",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T16:39:53.550Z",
+			"pressure": "82.53",
+			"_id": {
+				"$oid": "57a264a97f33337ed28ee1ef"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T16:39:57.375Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a264ad7f33337ed28ee1f0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:40:01.183Z",
+			"_id": {
+				"$oid": "57a264b17f33337ed28ee1f1"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.08",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:41:08.082Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a264f47f33337ed28ee1f2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:41:11.895Z",
+			"_id": {
+				"$oid": "57a264f77f33337ed28ee1f3"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.69",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:42:18.809Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a2653a7f33337ed28ee1f4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:42:22.618Z",
+			"_id": {
+				"$oid": "57a2653e7f33337ed28ee1f5"
+			},
+			"@type": "prov:Entity",
+			"noise": "17.73",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:43:29.523Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a265817f33337ed28ee1f6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:43:33.347Z",
+			"_id": {
+				"$oid": "57a265857f33337ed28ee1f7"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.37",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:44:40.279Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a265c87f33337ed28ee1f8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:44:44.099Z",
+			"_id": {
+				"$oid": "57a265cc7f33337ed28ee1f9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:45:51.020Z",
+			"light": "52",
+			"_id": {
+				"$oid": "57a2660f7f33337ed28ee1fa"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:45:54.834Z",
+			"_id": {
+				"$oid": "57a266127f33337ed28ee1fb"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:47:01.900Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a266557f33337ed28ee1fc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:47:05.697Z",
+			"_id": {
+				"$oid": "57a266597f33337ed28ee1fd"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:48:12.604Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a2669c7f33337ed28ee1fe"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:48:16.421Z",
+			"_id": {
+				"$oid": "57a266a07f33337ed28ee1ff"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.99",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:49:23.340Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a266e37f33337ed28ee200"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:49:27.153Z",
+			"_id": {
+				"$oid": "57a266e77f33337ed28ee201"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:50:34.065Z",
+			"light": "50",
+			"_id": {
+				"$oid": "57a2672a7f33337ed28ee202"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:50:37.892Z",
+			"_id": {
+				"$oid": "57a2672d7f33337ed28ee203"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.34",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:51:44.803Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a267707f33337ed28ee204"
+			},
+			"temperature": "18.32",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T16:51:48.620Z",
+			"pressure": "82.67",
+			"_id": {
+				"$oid": "57a267747f33337ed28ee205"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T16:51:52.452Z",
+			"light": "50",
+			"_id": {
+				"$oid": "57a267787f33337ed28ee206"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:51:56.268Z",
+			"_id": {
+				"$oid": "57a2677c7f33337ed28ee207"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:53:03.184Z",
+			"light": "49",
+			"_id": {
+				"$oid": "57a267bf7f33337ed28ee208"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:53:07.001Z",
+			"_id": {
+				"$oid": "57a267c37f33337ed28ee209"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:54:13.910Z",
+			"light": "51",
+			"_id": {
+				"$oid": "57a268057f33337ed28ee20a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:54:17.739Z",
+			"_id": {
+				"$oid": "57a268097f33337ed28ee20b"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:55:24.654Z",
+			"light": "32",
+			"_id": {
+				"$oid": "57a2684c7f33337ed28ee20c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:55:28.472Z",
+			"_id": {
+				"$oid": "57a268507f33337ed28ee20d"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.51",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:56:35.380Z",
+			"light": "19",
+			"_id": {
+				"$oid": "57a268937f33337ed28ee20e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:56:39.203Z",
+			"_id": {
+				"$oid": "57a268977f33337ed28ee20f"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.17",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:57:46.116Z",
+			"light": "15",
+			"_id": {
+				"$oid": "57a268da7f33337ed28ee210"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:57:49.938Z",
+			"_id": {
+				"$oid": "57a268dd7f33337ed28ee211"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.42",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T16:58:56.848Z",
+			"light": "21",
+			"_id": {
+				"$oid": "57a269207f33337ed28ee212"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T16:59:00.657Z",
+			"_id": {
+				"$oid": "57a269247f33337ed28ee213"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.49",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:00:07.559Z",
+			"light": "21",
+			"_id": {
+				"$oid": "57a269677f33337ed28ee214"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:00:11.382Z",
+			"_id": {
+				"$oid": "57a2696b7f33337ed28ee215"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:01:18.288Z",
+			"light": "18",
+			"_id": {
+				"$oid": "57a269ae7f33337ed28ee216"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:01:22.116Z",
+			"_id": {
+				"$oid": "57a269b27f33337ed28ee217"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.42",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:02:29.022Z",
+			"light": "18",
+			"_id": {
+				"$oid": "57a269f57f33337ed28ee218"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:02:32.834Z",
+			"_id": {
+				"$oid": "57a269f87f33337ed28ee219"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:03:39.753Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a26a3b7f33337ed28ee21a"
+			},
+			"temperature": "18.50",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:03:43.580Z",
+			"pressure": "82.60",
+			"_id": {
+				"$oid": "57a26a3f7f33337ed28ee21b"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:03:47.405Z",
+			"light": "13",
+			"_id": {
+				"$oid": "57a26a437f33337ed28ee21c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:03:51.228Z",
+			"_id": {
+				"$oid": "57a26a477f33337ed28ee21d"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:04:58.129Z",
+			"light": "47",
+			"_id": {
+				"$oid": "57a26a8a7f33337ed28ee21e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:05:01.951Z",
+			"_id": {
+				"$oid": "57a26a8d7f33337ed28ee21f"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.09",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:06:08.864Z",
+			"light": "48",
+			"_id": {
+				"$oid": "57a26ad07f33337ed28ee220"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:06:12.692Z",
+			"_id": {
+				"$oid": "57a26ad47f33337ed28ee221"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:07:19.594Z",
+			"light": "47",
+			"_id": {
+				"$oid": "57a26b177f33337ed28ee222"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:07:23.425Z",
+			"_id": {
+				"$oid": "57a26b1b7f33337ed28ee223"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.17",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:08:30.531Z",
+			"light": "15",
+			"_id": {
+				"$oid": "57a26b5e7f33337ed28ee224"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:08:34.351Z",
+			"_id": {
+				"$oid": "57a26b627f33337ed28ee225"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:09:41.260Z",
+			"light": "14",
+			"_id": {
+				"$oid": "57a26ba57f33337ed28ee226"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:09:45.081Z",
+			"_id": {
+				"$oid": "57a26ba97f33337ed28ee227"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:10:51.993Z",
+			"light": "47",
+			"_id": {
+				"$oid": "57a26beb7f33337ed28ee228"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:10:55.812Z",
+			"_id": {
+				"$oid": "57a26bef7f33337ed28ee229"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.69",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:12:02.727Z",
+			"light": "47",
+			"_id": {
+				"$oid": "57a26c327f33337ed28ee22a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:12:06.549Z",
+			"_id": {
+				"$oid": "57a26c367f33337ed28ee22b"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.17",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:13:13.455Z",
+			"light": "18",
+			"_id": {
+				"$oid": "57a26c797f33337ed28ee22c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:13:17.380Z",
+			"_id": {
+				"$oid": "57a26c7d7f33337ed28ee22d"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.34",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:14:24.287Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a26cc07f33337ed28ee22e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:14:28.114Z",
+			"_id": {
+				"$oid": "57a26cc47f33337ed28ee22f"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:15:35.030Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a26d077f33337ed28ee230"
+			},
+			"temperature": "18.32",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:15:38.857Z",
+			"pressure": "82.43",
+			"_id": {
+				"$oid": "57a26d0a7f33337ed28ee231"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:15:42.683Z",
+			"light": "13",
+			"_id": {
+				"$oid": "57a26d0e7f33337ed28ee232"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:15:46.500Z",
+			"_id": {
+				"$oid": "57a26d127f33337ed28ee233"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:16:53.441Z",
+			"light": "43",
+			"_id": {
+				"$oid": "57a26d557f33337ed28ee234"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:16:57.250Z",
+			"_id": {
+				"$oid": "57a26d597f33337ed28ee235"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:18:04.159Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a26d9c7f33337ed28ee236"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:18:07.985Z",
+			"_id": {
+				"$oid": "57a26d9f7f33337ed28ee237"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:19:14.893Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a26de27f33337ed28ee238"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:19:18.724Z",
+			"_id": {
+				"$oid": "57a26de67f33337ed28ee239"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.34",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:20:25.640Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a26e297f33337ed28ee23a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:20:29.573Z",
+			"_id": {
+				"$oid": "57a26e2d7f33337ed28ee23b"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:21:36.368Z",
+			"light": "40",
+			"_id": {
+				"$oid": "57a26e707f33337ed28ee23c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:21:40.197Z",
+			"_id": {
+				"$oid": "57a26e747f33337ed28ee23d"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:22:47.088Z",
+			"light": "16",
+			"_id": {
+				"$oid": "57a26eb77f33337ed28ee23e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:22:50.908Z",
+			"_id": {
+				"$oid": "57a26eba7f33337ed28ee23f"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.00",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:23:57.820Z",
+			"light": "39",
+			"_id": {
+				"$oid": "57a26efd7f33337ed28ee240"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:24:01.629Z",
+			"_id": {
+				"$oid": "57a26f017f33337ed28ee241"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:25:08.538Z",
+			"light": "39",
+			"_id": {
+				"$oid": "57a26f447f33337ed28ee242"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:25:12.354Z",
+			"_id": {
+				"$oid": "57a26f487f33337ed28ee243"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:26:19.266Z",
+			"light": "39",
+			"_id": {
+				"$oid": "57a26f8b7f33337ed28ee244"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:26:23.087Z",
+			"_id": {
+				"$oid": "57a26f8f7f33337ed28ee245"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:27:29.993Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a26fd17f33337ed28ee246"
+			},
+			"temperature": "18.69",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:27:33.822Z",
+			"pressure": "82.53",
+			"_id": {
+				"$oid": "57a26fd57f33337ed28ee247"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:27:37.644Z",
+			"light": "40",
+			"_id": {
+				"$oid": "57a26fd97f33337ed28ee248"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:27:41.466Z",
+			"_id": {
+				"$oid": "57a26fdd7f33337ed28ee249"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.99",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:28:48.376Z",
+			"light": "39",
+			"_id": {
+				"$oid": "57a270207f33337ed28ee24a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:28:52.204Z",
+			"_id": {
+				"$oid": "57a270247f33337ed28ee24b"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.37",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:29:59.120Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a270677f33337ed28ee24c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:30:02.938Z",
+			"_id": {
+				"$oid": "57a2706a7f33337ed28ee24d"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:31:09.846Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a270ad7f33337ed28ee24e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:31:13.656Z",
+			"_id": {
+				"$oid": "57a270b17f33337ed28ee24f"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.49",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:32:20.580Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a270f47f33337ed28ee250"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:32:24.789Z",
+			"_id": {
+				"$oid": "57a270f87f33337ed28ee251"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:33:31.697Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a2713b7f33337ed28ee252"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:33:35.508Z",
+			"_id": {
+				"$oid": "57a2713f7f33337ed28ee253"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:34:42.422Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a271827f33337ed28ee254"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:34:46.260Z",
+			"_id": {
+				"$oid": "57a271867f33337ed28ee255"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.28",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:35:53.164Z",
+			"light": "38",
+			"_id": {
+				"$oid": "57a271c97f33337ed28ee256"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:35:56.980Z",
+			"_id": {
+				"$oid": "57a271cc7f33337ed28ee257"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.00",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:37:03.888Z",
+			"light": "37",
+			"_id": {
+				"$oid": "57a2720f7f33337ed28ee258"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:37:07.706Z",
+			"_id": {
+				"$oid": "57a272137f33337ed28ee259"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:38:14.611Z",
+			"light": "37",
+			"_id": {
+				"$oid": "57a272567f33337ed28ee25a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:38:18.432Z",
+			"_id": {
+				"$oid": "57a2725a7f33337ed28ee25b"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:39:25.346Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a2729d7f33337ed28ee25c"
+			},
+			"temperature": "19.07",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:39:29.176Z",
+			"pressure": "82.46",
+			"_id": {
+				"$oid": "57a272a17f33337ed28ee25d"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:39:32.996Z",
+			"light": "36",
+			"_id": {
+				"$oid": "57a272a47f33337ed28ee25e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:39:36.823Z",
+			"_id": {
+				"$oid": "57a272a87f33337ed28ee25f"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:40:43.742Z",
+			"light": "34",
+			"_id": {
+				"$oid": "57a272eb7f33337ed28ee260"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:40:47.563Z",
+			"_id": {
+				"$oid": "57a272ef7f33337ed28ee261"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.28",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:41:54.463Z",
+			"light": "34",
+			"_id": {
+				"$oid": "57a273327f33337ed28ee262"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:41:58.275Z",
+			"_id": {
+				"$oid": "57a273367f33337ed28ee263"
+			},
+			"@type": "prov:Entity",
+			"noise": "16.52",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:43:05.192Z",
+			"light": "33",
+			"_id": {
+				"$oid": "57a273797f33337ed28ee264"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:43:09.007Z",
+			"_id": {
+				"$oid": "57a2737d7f33337ed28ee265"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:44:15.908Z",
+			"light": "32",
+			"_id": {
+				"$oid": "57a273bf7f33337ed28ee266"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:44:19.725Z",
+			"_id": {
+				"$oid": "57a273c37f33337ed28ee267"
+			},
+			"@type": "prov:Entity",
+			"noise": "17.95",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:45:26.634Z",
+			"light": "31",
+			"_id": {
+				"$oid": "57a274067f33337ed28ee268"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:45:30.473Z",
+			"_id": {
+				"$oid": "57a2740a7f33337ed28ee269"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:46:37.384Z",
+			"light": "31",
+			"_id": {
+				"$oid": "57a2744d7f33337ed28ee26a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:46:41.219Z",
+			"_id": {
+				"$oid": "57a274517f33337ed28ee26b"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:47:48.128Z",
+			"light": "30",
+			"_id": {
+				"$oid": "57a274947f33337ed28ee26c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:47:51.951Z",
+			"_id": {
+				"$oid": "57a274977f33337ed28ee26d"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.28",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:48:58.860Z",
+			"light": "30",
+			"_id": {
+				"$oid": "57a274da7f33337ed28ee26e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:49:02.670Z",
+			"_id": {
+				"$oid": "57a274de7f33337ed28ee26f"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.08",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:50:09.570Z",
+			"light": "30",
+			"_id": {
+				"$oid": "57a275217f33337ed28ee270"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:50:13.388Z",
+			"_id": {
+				"$oid": "57a275257f33337ed28ee271"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:51:20.301Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a275687f33337ed28ee272"
+			},
+			"temperature": "19.07",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:51:24.116Z",
+			"pressure": "82.53",
+			"_id": {
+				"$oid": "57a2756c7f33337ed28ee273"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T17:51:27.945Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a2756f7f33337ed28ee274"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:51:31.759Z",
+			"_id": {
+				"$oid": "57a275737f33337ed28ee275"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:52:38.675Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a275b67f33337ed28ee276"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:52:42.495Z",
+			"_id": {
+				"$oid": "57a275ba7f33337ed28ee277"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:53:49.402Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a275fd7f33337ed28ee278"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:53:53.223Z",
+			"_id": {
+				"$oid": "57a276017f33337ed28ee279"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.28",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:55:00.133Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a276447f33337ed28ee27a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:55:03.954Z",
+			"_id": {
+				"$oid": "57a276477f33337ed28ee27b"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.09",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:56:10.871Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a2768a7f33337ed28ee27c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:56:14.693Z",
+			"_id": {
+				"$oid": "57a2768e7f33337ed28ee27d"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:57:21.600Z",
+			"light": "29",
+			"_id": {
+				"$oid": "57a276d17f33337ed28ee27e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:57:25.411Z",
+			"_id": {
+				"$oid": "57a276d57f33337ed28ee27f"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:58:32.329Z",
+			"light": "28",
+			"_id": {
+				"$oid": "57a277187f33337ed28ee280"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:58:36.143Z",
+			"_id": {
+				"$oid": "57a2771c7f33337ed28ee281"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.99",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T17:59:43.051Z",
+			"light": "26",
+			"_id": {
+				"$oid": "57a2775f7f33337ed28ee282"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T17:59:46.872Z",
+			"_id": {
+				"$oid": "57a277627f33337ed28ee283"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.99",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:00:53.788Z",
+			"light": "26",
+			"_id": {
+				"$oid": "57a277a57f33337ed28ee284"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:00:57.612Z",
+			"_id": {
+				"$oid": "57a277a97f33337ed28ee285"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:02:04.514Z",
+			"light": "26",
+			"_id": {
+				"$oid": "57a277ec7f33337ed28ee286"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:02:08.333Z",
+			"_id": {
+				"$oid": "57a277f07f33337ed28ee287"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:03:15.241Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a278337f33337ed28ee288"
+			},
+			"temperature": "19.25",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:03:19.055Z",
+			"pressure": "82.36",
+			"_id": {
+				"$oid": "57a278377f33337ed28ee289"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:03:22.878Z",
+			"light": "25",
+			"_id": {
+				"$oid": "57a2783a7f33337ed28ee28a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:03:26.700Z",
+			"_id": {
+				"$oid": "57a2783e7f33337ed28ee28b"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:04:33.601Z",
+			"light": "23",
+			"_id": {
+				"$oid": "57a278817f33337ed28ee28c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:04:37.424Z",
+			"_id": {
+				"$oid": "57a278857f33337ed28ee28d"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.49",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:05:44.334Z",
+			"light": "22",
+			"_id": {
+				"$oid": "57a278c87f33337ed28ee28e"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:05:48.155Z",
+			"_id": {
+				"$oid": "57a278cc7f33337ed28ee28f"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:06:55.073Z",
+			"light": "20",
+			"_id": {
+				"$oid": "57a2790f7f33337ed28ee290"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:06:58.888Z",
+			"_id": {
+				"$oid": "57a279127f33337ed28ee291"
+			},
+			"@type": "prov:Entity",
+			"noise": "17.73",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:08:05.793Z",
+			"light": "18",
+			"_id": {
+				"$oid": "57a279557f33337ed28ee292"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:08:09.611Z",
+			"_id": {
+				"$oid": "57a279597f33337ed28ee293"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:09:16.529Z",
+			"light": "19",
+			"_id": {
+				"$oid": "57a2799c7f33337ed28ee294"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:09:20.336Z",
+			"_id": {
+				"$oid": "57a279a07f33337ed28ee295"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.08",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:10:27.244Z",
+			"light": "16",
+			"_id": {
+				"$oid": "57a279e37f33337ed28ee296"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:10:31.064Z",
+			"_id": {
+				"$oid": "57a279e77f33337ed28ee297"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.79",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:11:37.972Z",
+			"light": "14",
+			"_id": {
+				"$oid": "57a27a297f33337ed28ee298"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:11:41.792Z",
+			"_id": {
+				"$oid": "57a27a2d7f33337ed28ee299"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:12:48.709Z",
+			"light": "13",
+			"_id": {
+				"$oid": "57a27a707f33337ed28ee29a"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:12:52.532Z",
+			"_id": {
+				"$oid": "57a27a747f33337ed28ee29b"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.49",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:13:59.441Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27ab77f33337ed28ee29c"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:14:03.276Z",
+			"_id": {
+				"$oid": "57a27abb7f33337ed28ee29d"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.79",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:15:10.187Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a27afe7f33337ed28ee29e"
+			},
+			"temperature": "18.88",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:15:14.004Z",
+			"pressure": "82.39",
+			"_id": {
+				"$oid": "57a27b027f33337ed28ee29f"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:15:17.831Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27b057f33337ed28ee2a0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:15:21.652Z",
+			"_id": {
+				"$oid": "57a27b097f33337ed28ee2a1"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.09",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:16:28.559Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a27b4c7f33337ed28ee2a2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:16:32.523Z",
+			"_id": {
+				"$oid": "57a27b507f33337ed28ee2a3"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.06",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:17:39.765Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27b937f33337ed28ee2a4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:17:43.573Z",
+			"_id": {
+				"$oid": "57a27b977f33337ed28ee2a5"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:18:50.794Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27bda7f33337ed28ee2a6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:18:54.616Z",
+			"_id": {
+				"$oid": "57a27bde7f33337ed28ee2a7"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:20:01.527Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27c217f33337ed28ee2a8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:20:06.030Z",
+			"_id": {
+				"$oid": "57a27c267f33337ed28ee2a9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:21:12.930Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27c687f33337ed28ee2aa"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:21:16.748Z",
+			"_id": {
+				"$oid": "57a27c6c7f33337ed28ee2ab"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.49",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:22:23.664Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27caf7f33337ed28ee2ac"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:22:27.509Z",
+			"_id": {
+				"$oid": "57a27cb37f33337ed28ee2ad"
+			},
+			"@type": "prov:Entity",
+			"noise": "17.50",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:23:34.414Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27cf67f33337ed28ee2ae"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:23:38.234Z",
+			"_id": {
+				"$oid": "57a27cfa7f33337ed28ee2af"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:24:45.140Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27d3d7f33337ed28ee2b0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:24:48.967Z",
+			"_id": {
+				"$oid": "57a27d407f33337ed28ee2b1"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:25:55.873Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27d837f33337ed28ee2b2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:25:59.688Z",
+			"_id": {
+				"$oid": "57a27d877f33337ed28ee2b3"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:27:06.602Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a27dca7f33337ed28ee2b4"
+			},
+			"temperature": "19.07",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:27:10.420Z",
+			"pressure": "82.53",
+			"_id": {
+				"$oid": "57a27dce7f33337ed28ee2b5"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:27:14.362Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a27dd27f33337ed28ee2b6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:27:18.363Z",
+			"_id": {
+				"$oid": "57a27dd67f33337ed28ee2b7"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:28:25.271Z",
+			"light": "12",
+			"_id": {
+				"$oid": "57a27e197f33337ed28ee2b8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:28:29.084Z",
+			"_id": {
+				"$oid": "57a27e1d7f33337ed28ee2b9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:29:35.998Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27e5f7f33337ed28ee2ba"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:29:39.821Z",
+			"_id": {
+				"$oid": "57a27e637f33337ed28ee2bb"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.99",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:30:46.722Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27ea67f33337ed28ee2bc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:30:50.537Z",
+			"_id": {
+				"$oid": "57a27eaa7f33337ed28ee2bd"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.26",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:31:57.436Z",
+			"light": "11",
+			"_id": {
+				"$oid": "57a27eed7f33337ed28ee2be"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:32:01.253Z",
+			"_id": {
+				"$oid": "57a27ef17f33337ed28ee2bf"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:33:08.160Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a27f347f33337ed28ee2c0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:33:11.975Z",
+			"_id": {
+				"$oid": "57a27f377f33337ed28ee2c1"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:34:18.884Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a27f7a7f33337ed28ee2c2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:34:22.702Z",
+			"_id": {
+				"$oid": "57a27f7e7f33337ed28ee2c3"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:35:29.611Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a27fc17f33337ed28ee2c4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:35:33.429Z",
+			"_id": {
+				"$oid": "57a27fc57f33337ed28ee2c5"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.08",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:36:40.343Z",
+			"light": "8",
+			"_id": {
+				"$oid": "57a280087f33337ed28ee2c6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:36:44.166Z",
+			"_id": {
+				"$oid": "57a2800c7f33337ed28ee2c7"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.17",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:37:51.096Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2804f7f33337ed28ee2c8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:37:54.899Z",
+			"_id": {
+				"$oid": "57a280527f33337ed28ee2c9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:39:01.821Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a280957f33337ed28ee2ca"
+			},
+			"temperature": "19.07",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:39:05.636Z",
+			"pressure": "82.46",
+			"_id": {
+				"$oid": "57a280997f33337ed28ee2cb"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:39:09.457Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2809d7f33337ed28ee2cc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:39:13.274Z",
+			"_id": {
+				"$oid": "57a280a17f33337ed28ee2cd"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:40:20.182Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a280e47f33337ed28ee2ce"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:40:23.999Z",
+			"_id": {
+				"$oid": "57a280e77f33337ed28ee2cf"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:41:30.918Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2812a7f33337ed28ee2d0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:41:34.730Z",
+			"_id": {
+				"$oid": "57a2812e7f33337ed28ee2d1"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.28",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:42:41.643Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a281717f33337ed28ee2d2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:42:45.465Z",
+			"_id": {
+				"$oid": "57a281757f33337ed28ee2d3"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.82",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:43:52.396Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a281b87f33337ed28ee2d4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:43:56.814Z",
+			"_id": {
+				"$oid": "57a281bc7f33337ed28ee2d5"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.51",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:45:03.112Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a281ff7f33337ed28ee2d6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:45:06.933Z",
+			"_id": {
+				"$oid": "57a282027f33337ed28ee2d7"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:46:13.866Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a282457f33337ed28ee2d8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:46:17.687Z",
+			"_id": {
+				"$oid": "57a282497f33337ed28ee2d9"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:47:24.697Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2828c7f33337ed28ee2da"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:47:28.512Z",
+			"_id": {
+				"$oid": "57a282907f33337ed28ee2db"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.38",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:48:35.422Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a282d37f33337ed28ee2dc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:48:39.251Z",
+			"_id": {
+				"$oid": "57a282d77f33337ed28ee2dd"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.83",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:49:46.171Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2831a7f33337ed28ee2de"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:49:49.983Z",
+			"_id": {
+				"$oid": "57a2831d7f33337ed28ee2df"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.91",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:50:56.883Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a283607f33337ed28ee2e0"
+			},
+			"temperature": "19.44",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:51:00.697Z",
+			"pressure": "82.43",
+			"_id": {
+				"$oid": "57a283647f33337ed28ee2e1"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T18:51:04.517Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a283687f33337ed28ee2e2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:51:08.345Z",
+			"_id": {
+				"$oid": "57a2836c7f33337ed28ee2e3"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:52:15.263Z",
+			"light": "9",
+			"_id": {
+				"$oid": "57a283af7f33337ed28ee2e4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:52:19.082Z",
+			"_id": {
+				"$oid": "57a283b37f33337ed28ee2e5"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:53:25.993Z",
+			"light": "9",
+			"_id": {
+				"$oid": "57a283f57f33337ed28ee2e6"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:53:29.814Z",
+			"_id": {
+				"$oid": "57a283f97f33337ed28ee2e7"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.59",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:54:36.716Z",
+			"light": "9",
+			"_id": {
+				"$oid": "57a2843c7f33337ed28ee2e8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:54:40.527Z",
+			"_id": {
+				"$oid": "57a284407f33337ed28ee2e9"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.74",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:55:49.138Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a284857f33337ed28ee2ea"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:55:52.957Z",
+			"_id": {
+				"$oid": "57a284887f33337ed28ee2eb"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.65",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:57:00.455Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a284cc7f33337ed28ee2ec"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:57:04.352Z",
+			"_id": {
+				"$oid": "57a284d07f33337ed28ee2ed"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.18",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:58:11.246Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a285137f33337ed28ee2ee"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:58:15.058Z",
+			"_id": {
+				"$oid": "57a285177f33337ed28ee2ef"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.55",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T18:59:21.979Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a285597f33337ed28ee2f0"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T18:59:25.801Z",
+			"_id": {
+				"$oid": "57a2855d7f33337ed28ee2f1"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.79",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T19:00:32.709Z",
+			"light": "9",
+			"_id": {
+				"$oid": "57a285a07f33337ed28ee2f2"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T19:00:36.736Z",
+			"_id": {
+				"$oid": "57a285a47f33337ed28ee2f3"
+			},
+			"@type": "prov:Entity",
+			"noise": "18.89",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T19:01:43.757Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a285e77f33337ed28ee2f4"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T19:01:47.583Z",
+			"_id": {
+				"$oid": "57a285eb7f33337ed28ee2f5"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.17",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T19:02:55.121Z",
+			"@type": "prov:Entity",
+			"_id": {
+				"$oid": "57a2862f7f33337ed28ee2f6"
+			},
+			"temperature": "19.07",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T19:02:58.938Z",
+			"pressure": "82.57",
+			"_id": {
+				"$oid": "57a286327f33337ed28ee2f7"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "2638401839"
+		},
+		{
+			"date": "2016-08-03T19:03:02.774Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a286367f33337ed28ee2f8"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T19:03:06.596Z",
+			"_id": {
+				"$oid": "57a2863a7f33337ed28ee2f9"
+			},
+			"@type": "prov:Entity",
+			"noise": "20.00",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T19:04:13.509Z",
+			"light": "10",
+			"_id": {
+				"$oid": "57a2867d7f33337ed28ee2fa"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T19:04:17.329Z",
+			"_id": {
+				"$oid": "57a286817f33337ed28ee2fb"
+			},
+			"@type": "prov:Entity",
+			"noise": "21.14",
+			"wasgeneratedby": "8362936105"
+		},
+		{
+			"date": "2016-08-03T19:05:24.284Z",
+			"light": "8",
+			"_id": {
+				"$oid": "57a286c47f33337ed28ee2fc"
+			},
+			"@type": "prov:Entity",
+			"wasgeneratedby": "9486501836"
+		},
+		{
+			"date": "2016-08-03T19:05:28.106Z",
+			"_id": {
+				"$oid": "57a286c87f33337ed28ee2fd"
+			},
+			"@type": "prov:Entity",
+			"noise": "19.46",
+			"wasgeneratedby": "8362936105"
+		}
+	],
+	"label": "Weekly Livinglab Sensing Activity",
+	"EndDate": "2016-08-03T16:29:13.206Z",
+	"StartDate": "2016-08-03T19:05:28.106Z"
+}
