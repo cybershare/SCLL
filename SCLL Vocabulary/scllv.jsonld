@@ -11,12 +11,12 @@
 		"isweb" : "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
 		"vcard": "http://www.w3.org/2006/vcard/ns#",
 		"geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
-		"dul" : "http://www.loa-cnr.it/ontologies/DUL.owl#",
+		"dul" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
 		"prov" : "http://www.w3.org/ns/prov#",
 		"ssn" : "http://purl.oclc.org/NET/ssnx/ssn#",
 		"iot": "https://iotdb.org/pub/iot#",
 		"iot-unit": "https://iotdb.org/pub/iot-unit#",
-		"obo" : "http://purl.obolibrary.org/obo/",
+		"oboe" : "http://ecoinformatics.org/oboe/oboe.1.1/oboe-core.owl#",
 		"dcat" : "http://purl.org/ctic/dcat#",
 		"label": { 
 			"@id": "rdfs:label", 
@@ -108,7 +108,7 @@
 		},
 		"entity" : {
 			"@type" : "xsd:string",
-			"@id" : "obo:BFO_0000001" 
+			"@id" : "oboe:Entity" 
 		},
 		"boardName" : {
 			"@type" : "xsd:string",
