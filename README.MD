@@ -32,9 +32,6 @@ This module project is part of the Living Labs for Smart Cities use case in Guad
 + 10/28/2020:
 	- Added notice of deprecation to the project.
 
-## Upcoming Development
-+ Human readable version of the scllv JSON-LD specification.
-
 ## Results
 + Smart Cities Living Lab Vocabulary (scllv)
 	- References existing vocabulary terms and adds extended meaning to some terms.
