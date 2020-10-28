@@ -5,9 +5,9 @@
 -----------------------------------------------------------------------------------------------------
 
 # Project Discontinued Notice  
-This project is no longer updated so you might encounter broken links or test case procedures. 
+This project is no longer updated so you might encounter broken links or unavailable test case procedures. 
 
-The redirection to the extended metadata vocabullary is not available please direct to the following link for raw OWL format:   
+The redirection to the extended metadata vocabulary (scllv-meta) is not available, please direct to the following link to access RAW OWL format:   
 http://ontology.cybershare.utep.edu/smart-cities/scllv-meta.owl
 
 The original vocabulary used to describe iot elements is no longer available (https://iotdb.org/pub/iot). It might have been
