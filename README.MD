@@ -7,7 +7,7 @@
 # Repository Discontinued Notice  
 This repository is no longer updated so you might encounter broken links or unavailable test case procedures. 
 
-New work related to this project has moved to: (http://purl.org/smart-cities/scll-vocabulary)[http://purl.org/smart-cities/scll-vocabulary]
+New work related to this project has moved to: http://purl.org/smart-cities/scll-vocabulary
 
 The original vocabulary used to describe iot elements is no longer available (https://iotdb.org/pub/iot). It might have been
 redirected or taken down by its original author.
